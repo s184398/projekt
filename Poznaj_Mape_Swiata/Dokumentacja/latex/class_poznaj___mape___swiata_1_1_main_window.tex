@@ -1,0 +1,65 @@
+\hypertarget{class_poznaj___mape___swiata_1_1_main_window}{}\doxysection{Poznaj\+\_\+\+Mape\+\_\+\+Swiata.\+Main\+Window Class Reference}
+\label{class_poznaj___mape___swiata_1_1_main_window}\index{Poznaj\_Mape\_Swiata.MainWindow@{Poznaj\_Mape\_Swiata.MainWindow}}
+
+
+Klasa główna programu   
+
+
+
+
+Inheritance diagram for Poznaj\+\_\+\+Mape\+\_\+\+Swiata.\+Main\+Window\+:
+% FIG 0
+
+
+Collaboration diagram for Poznaj\+\_\+\+Mape\+\_\+\+Swiata.\+Main\+Window\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_aec6de91caa569a29a1ea39bb731db100}\label{class_poznaj___mape___swiata_1_1_main_window_aec6de91caa569a29a1ea39bb731db100}} 
+void {\bfseries Dopasuj} ()
+\begin{DoxyCompactList}\small\item\em Metoda przechowująca pary\+: województwo-\/stolica  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_a64c1b41f42c96bed1ad72c4205760397}\label{class_poznaj___mape___swiata_1_1_main_window_a64c1b41f42c96bed1ad72c4205760397}} 
+void {\bfseries Update\+Labels} ()
+\begin{DoxyCompactList}\small\item\em Metoda aktualizująca kontrolki przechowujących punkty i poziom  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_adf8f5bcb3acb12cb2b0fd5d0dafca6cc}\label{class_poznaj___mape___swiata_1_1_main_window_adf8f5bcb3acb12cb2b0fd5d0dafca6cc}} 
+void {\bfseries Przygotowanie\+Poziomu} ()
+\begin{DoxyCompactList}\small\item\em Metoda przygotowująca poziom do gry. Nastepuje w niej losowanie nazw stolic w czasie gry  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_af6b775ad0d42a5408559dc12a3b19295}\label{class_poznaj___mape___swiata_1_1_main_window_af6b775ad0d42a5408559dc12a3b19295}} 
+void {\bfseries Czasomierz} ()
+\begin{DoxyCompactList}\small\item\em Metoda przechowująca dane licznika czasu na rundę  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_aa7dfc519c9476b211f6ef124e87e79ed}\label{class_poznaj___mape___swiata_1_1_main_window_aa7dfc519c9476b211f6ef124e87e79ed}} 
+{\bfseries Main\+Window} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor programu inicjujacy gre  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_a390006964d90cc7673efeeb4c3653ee4}\label{class_poznaj___mape___swiata_1_1_main_window_a390006964d90cc7673efeeb4c3653ee4}} 
+void {\bfseries Dobrze} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiedzialna za reagowanie na poprawne odpowiedzi gracz  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_a9a4b1f4bf8eace9b895064e4c5b3e524}\label{class_poznaj___mape___swiata_1_1_main_window_a9a4b1f4bf8eace9b895064e4c5b3e524}} 
+void {\bfseries Zle} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiedzialna za reagowanie na bledne odpowiedzi gracza oraz koniec gry.  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_ad792ed52cc93436b432faed9c5c5cd0b}\label{class_poznaj___mape___swiata_1_1_main_window_ad792ed52cc93436b432faed9c5c5cd0b}} 
+void {\bfseries Wskaz\+Na\+Mapie} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiedzialna za drugi etap rundy -\/ wskazywanie na mapie  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_a3917b610229037594f4380b8175f0df4}\label{class_poznaj___mape___swiata_1_1_main_window_a3917b610229037594f4380b8175f0df4}} 
+Radio\+Button\mbox{[}$\,$\mbox{]} {\bfseries radios} = new Radio\+Button\mbox{[}6\mbox{]}
+\begin{DoxyCompactList}\small\item\em Tablica przechowujaca kontrolki typu radio z nazwami stolic  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_ad1f0dcaa629e7bb997fe0032cfb20645}\label{class_poznaj___mape___swiata_1_1_main_window_ad1f0dcaa629e7bb997fe0032cfb20645}} 
+String\mbox{[}$\,$\mbox{]} {\bfseries nazwy\+\_\+stolic} = \{ \char`\"{}Warszawa\char`\"{}, \char`\"{}Rzeszów\char`\"{}, \char`\"{}Bydgoszcz\char`\"{}, \char`\"{}Zielona Góra\char`\"{}, \char`\"{}Poznań\char`\"{}, \char`\"{}Wrocław\char`\"{}, \char`\"{}Gdańsk\char`\"{}, \char`\"{}Białystok\char`\"{}, \char`\"{}Opole\char`\"{}, \char`\"{}Lublin\char`\"{}, \char`\"{}Szczecin\char`\"{}, \char`\"{}Katowice\char`\"{}, \char`\"{}Kraków\char`\"{}, \char`\"{}Kielce\char`\"{}, \char`\"{}Łódź\char`\"{}, \char`\"{}Olsztyn\char`\"{} \}
+\begin{DoxyCompactList}\small\item\em Tablica z nazwami stolic  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_a5c1707e539a0e145a464c9b02ec22998}\label{class_poznaj___mape___swiata_1_1_main_window_a5c1707e539a0e145a464c9b02ec22998}} 
+int {\bfseries poziom} = 1
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca dany poziom  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_main_window_ab8f5b13ff8eb9d4afc839ff8ec19f07c}\label{class_poznaj___mape___swiata_1_1_main_window_ab8f5b13ff8eb9d4afc839ff8ec19f07c}} 
+int {\bfseries punkty} = 100
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca liczbe punktow gracza  \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa główna programu  
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Main\+Window.\+xaml.\+cs\end{DoxyCompactItemize}

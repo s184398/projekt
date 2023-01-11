@@ -1,0 +1,70 @@
+.TH "Poznaj_Mape_Swiata.Poziom2" 3 "Fri Dec 23 2022" "Version v1.0" "Poznaj Europe" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Poznaj_Mape_Swiata.Poziom2 \- Interaction logic for Poziom2\&.xaml   
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Window\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBDopasuj\fP ()"
+.br
+.RI "Metoda przechowująca pary: województwo-stolica  "
+.ti -1c
+.RI "void \fBUpdateLabels\fP ()"
+.br
+.RI "Metoda aktualizująca kontrolki przechowujących punkty i poziom  "
+.ti -1c
+.RI "void \fBPrzygotowaniePoziomu\fP ()"
+.br
+.RI "Metoda przygotowująca poziom do gry\&. Nastepuje w niej losowanie nazw stolic w czasie gry  "
+.ti -1c
+.RI "\fBPoziom2\fP (int zycie, int \fBpunkty\fP)"
+.br
+.RI "Konstruktor programu inicjujacy gre  "
+.ti -1c
+.RI "void \fBDobrze\fP ()"
+.br
+.RI "Metoda odpowiedzialna za reagowanie na poprawne odpowiedzi gracz  "
+.ti -1c
+.RI "void \fBZle\fP ()"
+.br
+.RI "Metoda odpowiedzialna za reagowanie na bledne odpowiedzi gracza oraz koniec gry\&.  "
+.ti -1c
+.RI "void \fBWskazNaMapie\fP ()"
+.br
+.RI "Metoda odpowiedzialna za drugi etap rundy - wskazywanie na mapie  "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "RadioButton[] \fBradios\fP = new RadioButton[8]"
+.br
+.RI "Tablica przechowujaca kontrolki typu radio z nazwami stolic  "
+.ti -1c
+.RI "String[] \fBnazwy_stolic\fP = { 'Oslo', 'Sztokholm', 'Helsinki', 'Dublin', 'Londyn', 'Lisbona', 'Madryd', 'Paryż', 'Bruksela', 'Amsterdam', 'Berlin', 'Warszawa', 'Wilno', 'Ryga', 'Talin', 'Mińsk', 'Kijów', 'Kiszyniów', 'Bukareszt', 'Praga', 'Bratysława', 'Wiedeń', 'Berno', 'Rzym', 'Lublana', 'Budapeszt', 'Zagrzeb', 'Sarajewo', 'Belgrad', 'Sofia', 'Podgorica', 'Tirana', 'Prisztina', 'Skopje', 'Ateny', 'Kopenhaga'}"
+.br
+.RI "Tablica z nazwami stolic  "
+.ti -1c
+.RI "int \fBpoziom\fP = 4"
+.br
+.RI "Zmienna przechowujaca dany poziom  "
+.ti -1c
+.RI "int \fBpunkty\fP"
+.br
+.RI "Zmienna przechowujaca liczbe punktow gracza  "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Interaction logic for Poziom2\&.xaml  
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Poznaj Europe from the source code\&.

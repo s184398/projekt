@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.5" xml:lang="en-US">
+  <compound refid="class_poznaj___mape___swiata_1_1_app" kind="class"><name>Poznaj_Mape_Swiata::App</name>
+  </compound>
+  <compound refid="class_poznaj___mape___swiata_1_1_main_window" kind="class"><name>Poznaj_Mape_Swiata::MainWindow</name>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a554d37b2ed40add66230200e95344581" kind="variable"><name>time</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" kind="variable"><name>Timer</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1ae0f373056d3f3053a887c372e4c05125" kind="variable"><name>ile_jeszcze</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a5c07d4846a7ce14a0f56f904e43c2727" kind="variable"><name>zycie</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a18706bdb709447a526db8c2d0629e895" kind="variable"><name>zycia</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a1e98f789c9c04f25add1670fa654c578" kind="variable"><name>hasBeenClicked</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a6292ea8a66a035dcb805d47c0fd3c088" kind="variable"><name>SecondStage</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1aba9b88034551cdddc5ad48207a1b67da" kind="variable"><name>dopasowanie</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a65a35cd37f25fa33e6996d3700b887f0" kind="variable"><name>rnd</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a3917b610229037594f4380b8175f0df4" kind="variable"><name>radios</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1ad1f0dcaa629e7bb997fe0032cfb20645" kind="variable"><name>nazwy_stolic</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" kind="variable"><name>poziom</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1ab8f5b13ff8eb9d4afc839ff8ec19f07c" kind="variable"><name>punkty</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1aec6de91caa569a29a1ea39bb731db100" kind="function"><name>Dopasuj</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" kind="function"><name>UpdateLabels</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" kind="function"><name>PrzygotowaniePoziomu</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1af6b775ad0d42a5408559dc12a3b19295" kind="function"><name>Czasomierz</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" kind="function"><name>MainWindow</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a390006964d90cc7673efeeb4c3653ee4" kind="function"><name>Dobrze</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" kind="function"><name>Zle</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1ad792ed52cc93436b432faed9c5c5cd0b" kind="function"><name>WskazNaMapie</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" kind="function"><name>CzyWybranoStolice</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a8b4428cd0ee97010229f341f4e768f5d" kind="function"><name>Timer_Tick</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" kind="function"><name>Btnsprawdz_Click</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa316f9d8b9627853a0489b774888f3a4" kind="function"><name>txt_woj_GotFocus</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" kind="function"><name>sprawdzMape</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a011213d6363437b9f434da396c95cdc0" kind="function"><name>Button_Click_1</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a62faa1abac75c472aced5519e02f0daf" kind="function"><name>Button_Click_2</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa659612ebc390ba5f5a9cd153d5ac65f" kind="function"><name>Button_Click_3</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a0b94eb8cff5cc22a9abab89d978cd03b" kind="function"><name>Button_Click_4</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1ab54a884a187813904dd6d6e3c7d38df0" kind="function"><name>Button_Click_5</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a7a1b981b36f005a0c712f345aa176685" kind="function"><name>Button_Click_6</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1ad868f877878780239e3523fc28c68165" kind="function"><name>Button_Click_7</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a929319928b54d83d9a9f25c5d31ade0f" kind="function"><name>Button_Click_8</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a8b3e6a4457db39e0b145bed6eb03da67" kind="function"><name>Button_Click_9</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a3cbe1d5986f106481db365705b6bc430" kind="function"><name>Button_Click_10</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1ab8fa5ea90d30577d92268cddc760e087" kind="function"><name>Button_Click_11</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a9d7f9632e65a47a19a94dd8ee0f32464" kind="function"><name>Button_Click_12</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a34dc7473a92f9b349500e1deb4ae4694" kind="function"><name>Button_Click_13</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a2b122e3600a8d2f8fcb5bb3b0c39fe80" kind="function"><name>Button_Click_14</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a68836b5bb19e0d036a109a48ff0f5395" kind="function"><name>Button_Click_15</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a9ab8e8dc87e926834acaad739347e21e" kind="function"><name>Button_Click_16</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a0255a7313d01a7d3f08513a300680668" kind="function"><name>Button_Again_Click</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_main_window_1a744b4d3fb998a5ee26e7e1606ac690fa" kind="function"><name>LV_stolic_MouseLeave</name></member>
+  </compound>
+  <compound refid="class_poznaj___mape___swiata_1_1_poziom2" kind="class"><name>Poznaj_Mape_Swiata::Poziom2</name>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1acfe5b998fab0572cd0c42876947eb4de" kind="variable"><name>time</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" kind="variable"><name>Timer</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a38160dab87742def7660343aa914ef3a" kind="variable"><name>ile_jeszcze</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa6efa360aa33e011fc32bc698776ccdd" kind="variable"><name>zycie</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a95805d13bac6cd0b98fd42e7cddf9bcd" kind="variable"><name>zycia</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a8748372ed23bd8e48c521bee1758b736" kind="variable"><name>hasBeenClicked</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a37031cb9f2b667dd8ec166220971e253" kind="variable"><name>SecondStage</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a0006ed04ed5000442cb749ebf835a28f" kind="variable"><name>dopasowanie</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a17d118c35c058b5b33b0788866eed90a" kind="variable"><name>rnd</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1adbb6d55c5de77901d7c52e6f17b0420f" kind="variable"><name>radios</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1afadae79ee1393e198d582d121639360b" kind="variable"><name>nazwy_stolic</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" kind="variable"><name>poziom</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" kind="variable"><name>punkty</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ad10bcba97778ada09a3f14914cacad8e" kind="function"><name>Dopasuj</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" kind="function"><name>UpdateLabels</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" kind="function"><name>PrzygotowaniePoziomu</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" kind="function"><name>Poziom2</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a1102b845a76fc0c4624ca616c315c8c5" kind="function"><name>Dobrze</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" kind="function"><name>Zle</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a7204fa6f94cf988e5fa9597fca79be43" kind="function"><name>WskazNaMapie</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" kind="function"><name>CzyWybranoStolice</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a8661c59f7b452b1b6634230812aab5cd" kind="function"><name>Timer_Tick</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" kind="function"><name>Btnsprawdz_Click</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1afe5d3cdc71ff3a3d7aed5a3cfbaf662b" kind="function"><name>txt_kraj_GotFocus</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" kind="function"><name>sprawdzMape</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a2ff0b8937191e4ae13c43de5d7eb0f82" kind="function"><name>Button_Click_1</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ae5aa2fbcdeef7a162ee17f86ccb1d7d5" kind="function"><name>Button_Click_2</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a67573e1eefca6e41c91295ee038f27f9" kind="function"><name>Button_Click_3</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4b62b57f690a10a7b123342725432993" kind="function"><name>Button_Click_4</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a8af941686f44d4b62045385d92a4a42e" kind="function"><name>Button_Click_5</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa803ae560f65a090353494222c2beea1" kind="function"><name>Button_Click_6</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a182656059ff1c799d5f128f14542a190" kind="function"><name>Button_Click_7</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4ad62baad36a597eb40516e2f04e0d14" kind="function"><name>Button_Click_8</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a53230bfa919adb56c6844f3bdd252351" kind="function"><name>Button_Click_9</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1af4251dd7107e3324695aa843e41744f3" kind="function"><name>Button_Click_10</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a412cf518da718aed8cb0f415e18ab1f7" kind="function"><name>Button_Click_11</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a0aa465cb2d1078fb7b9766b1f4943df7" kind="function"><name>Button_Click_12</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1adf79447663fdd9867325b515f9adc74b" kind="function"><name>Button_Click_13</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ad1cd9879a3adcf2842b8ba7c1a77623b" kind="function"><name>Button_Click_14</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a23b9ff925bc33050238b5fa63f755a00" kind="function"><name>Button_Click_15</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a67d2fc70f872f2b40bc157fc62dac272" kind="function"><name>Button_Click_16</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a774467660ff440bd0265424182571f5e" kind="function"><name>Button_Click_17</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ac6ba1b1935ca279d0f3d630ec6fd89b0" kind="function"><name>Button_Click_18</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a6eccc018b1241ca30f76414bbd8a850e" kind="function"><name>Button_Click_19</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ade5be227da67092af42c501eb3200088" kind="function"><name>Button_Click_20</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a9863803201bef3778908c65007299351" kind="function"><name>Button_Click_21</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a31d925b68bdecf9df492829854c6f000" kind="function"><name>Button_Click_22</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a5edd682c1993b3dfa57eece231194ee2" kind="function"><name>Button_Click_23</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a6a8f533c43d73d2127077c646d9b76a8" kind="function"><name>Button_Click_24</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a6a549cb7310551ed43d090a9488fce49" kind="function"><name>Button_Click_25</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1af4930bb4ba1ce629057b669c38b3ab61" kind="function"><name>Button_Click_26</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ae9f40b81567441dd7f79c5943e6bc8b6" kind="function"><name>Button_Click_27</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aba6fff30ae057475588d32e7327d29a1" kind="function"><name>Button_Click_28</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a9c24228c9e40950f74f21ff6aa418cab" kind="function"><name>Button_Click_29</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4cd4ca3b3ab6e0b90a2c61b16bcb3eff" kind="function"><name>Button_Click_30</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a528c4c15aa255c45805e0d06a3b0cb0e" kind="function"><name>Button_Click_31</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aed5eb1296c5923eb6daefbcefe10fb85" kind="function"><name>Button_Click_32</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4fe9537091af2e386556f5ac8f371a0d" kind="function"><name>Button_Click_33</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1af90d3ee2560700fde784962b11c55832" kind="function"><name>Button_Click_34</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ae352982670045b83ad83b7fa2fc5241d" kind="function"><name>Button_Click_35</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa0d1ae6fcfb357eb9b054c0eb84e3107" kind="function"><name>Button_Click_36</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a1b95f71dcefeb92a32b855a9e768811f" kind="function"><name>LV_stolic_MouseLeave</name></member>
+    <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ab00249eec76d68713f3a883575d4c08f" kind="function"><name>Jeszcze_raz_Click</name></member>
+  </compound>
+  <compound refid="namespace_poznaj___mape___swiata" kind="namespace"><name>Poznaj_Mape_Swiata</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_rights_management" kind="namespace"><name>System::Security::RightsManagement</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_threading" kind="namespace"><name>System::Windows::Threading</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_poziom2_8xaml_8cs" kind="file"><name>Poziom2.xaml.cs</name>
+  </compound>
+</doxygenindex>

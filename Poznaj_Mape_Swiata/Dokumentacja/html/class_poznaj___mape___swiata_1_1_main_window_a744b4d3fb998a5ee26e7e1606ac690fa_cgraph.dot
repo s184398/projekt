@@ -1,0 +1,11 @@
+digraph "Poznaj_Mape_Swiata.MainWindow.LV_stolic_MouseLeave"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="Poznaj_Mape_Swiata.MainWindow.\lLV_stolic_MouseLeave",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Metoda odpowiedzialna za odczytanie z wylosowanej listy wybranego przez uzytkownika wojewodztwa"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Poznaj_Mape_Swiata.MainWindow.\lCzyWybranoStolice",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_poznaj___mape___swiata_1_1_main_window.html#a4ecbe1867ec0b0970dd2613772e07b7f",tooltip="Metoda sprawdzająca, która stolica została wybrana do odgadnięcia"];
+}

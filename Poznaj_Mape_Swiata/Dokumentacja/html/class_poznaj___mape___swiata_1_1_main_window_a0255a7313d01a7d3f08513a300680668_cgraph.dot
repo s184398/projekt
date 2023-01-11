@@ -1,0 +1,21 @@
+digraph "Poznaj_Mape_Swiata.MainWindow.Button_Again_Click"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [label="Poznaj_Mape_Swiata.MainWindow.\lButton_Again_Click",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Metoda, ktora po przegranej nastepuje mozliwosc ponownej gry"];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="Poznaj_Mape_Swiata.MainWindow.\lMainWindow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_poznaj___mape___swiata_1_1_main_window.html#aa7dfc519c9476b211f6ef124e87e79ed",tooltip="Konstruktor programu inicjujacy gre"];
+  Node2 -> Node3 [color="steelblue1",style="solid"];
+  Node3 [label="Poznaj_Mape_Swiata.MainWindow.\lCzasomierz",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_poznaj___mape___swiata_1_1_main_window.html#af6b775ad0d42a5408559dc12a3b19295",tooltip="Metoda przechowująca dane licznika czasu na rundę"];
+  Node3 -> Node4 [color="steelblue1",style="solid"];
+  Node4 [label="Poznaj_Mape_Swiata.MainWindow.\lTimer_Tick",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_poznaj___mape___swiata_1_1_main_window.html#a8b4428cd0ee97010229f341f4e768f5d",tooltip="Metoda odpowiedzialna za wyswietlanie oraz odliczanie czasu na gre w rundzie"];
+  Node2 -> Node5 [color="steelblue1",style="solid"];
+  Node5 [label="Poznaj_Mape_Swiata.MainWindow.\lDopasuj",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_poznaj___mape___swiata_1_1_main_window.html#aec6de91caa569a29a1ea39bb731db100",tooltip="Metoda przechowująca pary: województwo-stolica"];
+  Node2 -> Node6 [color="steelblue1",style="solid"];
+  Node6 [label="Poznaj_Mape_Swiata.MainWindow.\lPrzygotowaniePoziomu",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_poznaj___mape___swiata_1_1_main_window.html#adf8f5bcb3acb12cb2b0fd5d0dafca6cc",tooltip="Metoda przygotowująca poziom do gry. Nastepuje w niej losowanie nazw stolic w czasie gry"];
+  Node6 -> Node7 [color="steelblue1",style="solid"];
+  Node7 [label="Poznaj_Mape_Swiata.MainWindow.\lUpdateLabels",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_poznaj___mape___swiata_1_1_main_window.html#a64c1b41f42c96bed1ad72c4205760397",tooltip="Metoda aktualizująca kontrolki przechowujących punkty i poziom"];
+}

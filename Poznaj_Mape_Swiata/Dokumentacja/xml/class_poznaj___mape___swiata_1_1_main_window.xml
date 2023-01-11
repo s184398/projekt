@@ -1,0 +1,1472 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_poznaj___mape___swiata_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>Poznaj_Mape_Swiata::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a554d37b2ed40add66230200e95344581" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.MainWindow.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.time</qualifiedname>
+        <initializer>= 25</initializer>
+        <briefdescription>
+<para>czas gry w sekundach  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="31" column="21" bodyfile="MainWindow.xaml.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a390006964d90cc7673efeeb4c3653ee4" compoundref="_main_window_8xaml_8cs" startline="247" endline="258">Poznaj_Mape_Swiata.MainWindow.Dobrze</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a8b4428cd0ee97010229f341f4e768f5d" compoundref="_main_window_8xaml_8cs" startline="213" endline="242">Poznaj_Mape_Swiata.MainWindow.Timer_Tick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" prot="private" static="no" mutable="no">
+        <type>DispatcherTimer</type>
+        <definition>DispatcherTimer Poznaj_Mape_Swiata.MainWindow.Timer</definition>
+        <argsstring></argsstring>
+        <name>Timer</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Timer</qualifiedname>
+        <briefdescription>
+<para>Zmienna systemowa odpowiedzialna za kontrole uplywu czasu  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="35" column="33" bodyfile="MainWindow.xaml.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1af6b775ad0d42a5408559dc12a3b19295" compoundref="_main_window_8xaml_8cs" startline="182" endline="189">Poznaj_Mape_Swiata.MainWindow.Czasomierz</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" compoundref="_main_window_8xaml_8cs" startline="108" endline="124">Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a390006964d90cc7673efeeb4c3653ee4" compoundref="_main_window_8xaml_8cs" startline="247" endline="258">Poznaj_Mape_Swiata.MainWindow.Dobrze</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a8b4428cd0ee97010229f341f4e768f5d" compoundref="_main_window_8xaml_8cs" startline="213" endline="242">Poznaj_Mape_Swiata.MainWindow.Timer_Tick</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" compoundref="_main_window_8xaml_8cs" startline="263" endline="290">Poznaj_Mape_Swiata.MainWindow.Zle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1ae0f373056d3f3053a887c372e4c05125" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.MainWindow.ile_jeszcze</definition>
+        <argsstring></argsstring>
+        <name>ile_jeszcze</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.ile_jeszcze</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>Zmienna odpowiedzialna za odliczanie stolic, ktore pozostaly do odgadniecia  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="39" column="21" bodyfile="MainWindow.xaml.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a5c07d4846a7ce14a0f56f904e43c2727" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.MainWindow.zycie</definition>
+        <argsstring></argsstring>
+        <name>zycie</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.zycie</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>zmienna liczaca zycia gracza  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="43" column="21" bodyfile="MainWindow.xaml.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" compoundref="_main_window_8xaml_8cs" startline="263" endline="290">Poznaj_Mape_Swiata.MainWindow.Zle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a18706bdb709447a526db8c2d0629e895" prot="private" static="no" mutable="no">
+        <type>Image[]</type>
+        <definition>Image [] Poznaj_Mape_Swiata.MainWindow.zycia</definition>
+        <argsstring></argsstring>
+        <name>zycia</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.zycia</qualifiedname>
+        <initializer>= new Image[3]</initializer>
+        <briefdescription>
+<para>Obiekt przechowujacy obrazki zycia na ekranie gracza  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="47" column="23" bodyfile="MainWindow.xaml.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" compoundref="_main_window_8xaml_8cs" startline="194" endline="205">Poznaj_Mape_Swiata.MainWindow.MainWindow</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" compoundref="_main_window_8xaml_8cs" startline="263" endline="290">Poznaj_Mape_Swiata.MainWindow.Zle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a1e98f789c9c04f25add1670fa654c578" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Poznaj_Mape_Swiata.MainWindow.hasBeenClicked</definition>
+        <argsstring></argsstring>
+        <name>hasBeenClicked</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.hasBeenClicked</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Zmienna kontrolujaca czyszczenie pola do wpisywania nazw krajow  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="51" column="22" bodyfile="MainWindow.xaml.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa316f9d8b9627853a0489b774888f3a4" compoundref="_main_window_8xaml_8cs" startline="337" endline="344">Poznaj_Mape_Swiata.MainWindow.txt_woj_GotFocus</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a6292ea8a66a035dcb805d47c0fd3c088" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Poznaj_Mape_Swiata.MainWindow.SecondStage</definition>
+        <argsstring></argsstring>
+        <name>SecondStage</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.SecondStage</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Gra dysponuje dwoma etapami - odgadnij kraj ze stolicy oraz pokaz na mapie (tu rozpoczecie drugiego etapu rozgrywki po poprawnym wpisaniu nazwy kraju)  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="55" column="22" bodyfile="MainWindow.xaml.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" compoundref="_main_window_8xaml_8cs" startline="108" endline="124">Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a744b4d3fb998a5ee26e7e1606ac690fa" compoundref="_main_window_8xaml_8cs" startline="591" endline="600">Poznaj_Mape_Swiata.MainWindow.LV_stolic_MouseLeave</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1aba9b88034551cdddc5ad48207a1b67da" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; String, String &gt;</type>
+        <definition>Dictionary&lt;String, String&gt; Poznaj_Mape_Swiata.MainWindow.dopasowanie</definition>
+        <argsstring></argsstring>
+        <name>dopasowanie</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.dopasowanie</qualifiedname>
+        <initializer>= new Dictionary&lt;String, String&gt;()</initializer>
+        <briefdescription>
+<para>Obiekt przechowujacy pary zmiennych stolica-kraj  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="67" column="28" bodyfile="MainWindow.xaml.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aec6de91caa569a29a1ea39bb731db100" compoundref="_main_window_8xaml_8cs" startline="84" endline="102">Poznaj_Mape_Swiata.MainWindow.Dopasuj</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a65a35cd37f25fa33e6996d3700b887f0" prot="private" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random Poznaj_Mape_Swiata.MainWindow.rnd</definition>
+        <argsstring></argsstring>
+        <name>rnd</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.rnd</qualifiedname>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+<para>Obiekt odpowiedzialny za losowanie  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="79" column="24" bodyfile="MainWindow.xaml.cs" bodystart="79" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a3917b610229037594f4380b8175f0df4" prot="public" static="no" mutable="no">
+        <type>RadioButton[]</type>
+        <definition>RadioButton [] Poznaj_Mape_Swiata.MainWindow.radios</definition>
+        <argsstring></argsstring>
+        <name>radios</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.radios</qualifiedname>
+        <initializer>= new RadioButton[6]</initializer>
+        <briefdescription>
+<para>Tablica przechowujaca kontrolki typu radio z nazwami stolic  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="59" column="28" bodyfile="MainWindow.xaml.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" compoundref="_main_window_8xaml_8cs" startline="108" endline="124">Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1ad1f0dcaa629e7bb997fe0032cfb20645" prot="public" static="no" mutable="no">
+        <type>String[]</type>
+        <definition>String [] Poznaj_Mape_Swiata.MainWindow.nazwy_stolic</definition>
+        <argsstring></argsstring>
+        <name>nazwy_stolic</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.nazwy_stolic</qualifiedname>
+        <initializer>= { &quot;Warszawa&quot;, &quot;Rzeszów&quot;, &quot;Bydgoszcz&quot;, &quot;Zielona Góra&quot;, &quot;Poznań&quot;, &quot;Wrocław&quot;, &quot;Gdańsk&quot;, &quot;Białystok&quot;, &quot;Opole&quot;, &quot;Lublin&quot;, &quot;Szczecin&quot;, &quot;Katowice&quot;, &quot;Kraków&quot;, &quot;Kielce&quot;, &quot;Łódź&quot;, &quot;Olsztyn&quot; }</initializer>
+        <briefdescription>
+<para>Tablica z nazwami stolic  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="63" column="15" bodyfile="MainWindow.xaml.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aec6de91caa569a29a1ea39bb731db100" compoundref="_main_window_8xaml_8cs" startline="84" endline="102">Poznaj_Mape_Swiata.MainWindow.Dopasuj</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.MainWindow.poziom</definition>
+        <argsstring></argsstring>
+        <name>poziom</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.poziom</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>Zmienna przechowujaca dany poziom  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="71" column="20" bodyfile="MainWindow.xaml.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" compoundref="_main_window_8xaml_8cs" startline="108" endline="124">Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a390006964d90cc7673efeeb4c3653ee4" compoundref="_main_window_8xaml_8cs" startline="247" endline="258">Poznaj_Mape_Swiata.MainWindow.Dobrze</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" compoundref="_main_window_8xaml_8cs" startline="129" endline="133">Poznaj_Mape_Swiata.MainWindow.UpdateLabels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_main_window_1ab8f5b13ff8eb9d4afc839ff8ec19f07c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.MainWindow.punkty</definition>
+        <argsstring></argsstring>
+        <name>punkty</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.punkty</qualifiedname>
+        <initializer>= 100</initializer>
+        <briefdescription>
+<para>Zmienna przechowujaca liczbe punktow gracza  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="75" column="12" bodyfile="MainWindow.xaml.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a8b4428cd0ee97010229f341f4e768f5d" compoundref="_main_window_8xaml_8cs" startline="213" endline="242">Poznaj_Mape_Swiata.MainWindow.Timer_Tick</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" compoundref="_main_window_8xaml_8cs" startline="129" endline="133">Poznaj_Mape_Swiata.MainWindow.UpdateLabels</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1aec6de91caa569a29a1ea39bb731db100" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Dopasuj</definition>
+        <argsstring>()</argsstring>
+        <name>Dopasuj</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Dopasuj</qualifiedname>
+        <briefdescription>
+<para>Metoda przechowująca pary: województwo-stolica  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="84" column="21" bodyfile="MainWindow.xaml.cs" bodystart="84" bodyend="102"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1aba9b88034551cdddc5ad48207a1b67da" compoundref="_main_window_8xaml_8cs" startline="67">Poznaj_Mape_Swiata.MainWindow.dopasowanie</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ad1f0dcaa629e7bb997fe0032cfb20645" compoundref="_main_window_8xaml_8cs" startline="63">Poznaj_Mape_Swiata.MainWindow.nazwy_stolic</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" compoundref="_main_window_8xaml_8cs" startline="194" endline="205">Poznaj_Mape_Swiata.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.UpdateLabels</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLabels</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.UpdateLabels</qualifiedname>
+        <briefdescription>
+<para>Metoda aktualizująca kontrolki przechowujących punkty i poziom  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="129" column="21" bodyfile="MainWindow.xaml.cs" bodystart="129" bodyend="133"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" compoundref="_main_window_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.MainWindow.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ab8f5b13ff8eb9d4afc839ff8ec19f07c" compoundref="_main_window_8xaml_8cs" startline="75">Poznaj_Mape_Swiata.MainWindow.punkty</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</definition>
+        <argsstring>()</argsstring>
+        <name>PrzygotowaniePoziomu</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</qualifiedname>
+        <briefdescription>
+<para>Metoda przygotowująca poziom do gry. Nastepuje w niej losowanie nazw stolic w czasie gry  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="139" column="21" bodyfile="MainWindow.xaml.cs" bodystart="139" bodyend="177"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ae0f373056d3f3053a887c372e4c05125" compoundref="_main_window_8xaml_8cs" startline="39">Poznaj_Mape_Swiata.MainWindow.ile_jeszcze</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ad1f0dcaa629e7bb997fe0032cfb20645" compoundref="_main_window_8xaml_8cs" startline="63">Poznaj_Mape_Swiata.MainWindow.nazwy_stolic</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" compoundref="_main_window_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.MainWindow.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a3917b610229037594f4380b8175f0df4" compoundref="_main_window_8xaml_8cs" startline="59">Poznaj_Mape_Swiata.MainWindow.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a65a35cd37f25fa33e6996d3700b887f0" compoundref="_main_window_8xaml_8cs" startline="79">Poznaj_Mape_Swiata.MainWindow.rnd</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" compoundref="_main_window_8xaml_8cs" startline="129" endline="133">Poznaj_Mape_Swiata.MainWindow.UpdateLabels</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" compoundref="_main_window_8xaml_8cs" startline="194" endline="205">Poznaj_Mape_Swiata.MainWindow.MainWindow</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1af6b775ad0d42a5408559dc12a3b19295" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Czasomierz</definition>
+        <argsstring>()</argsstring>
+        <name>Czasomierz</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Czasomierz</qualifiedname>
+        <briefdescription>
+<para>Metoda przechowująca dane licznika czasu na rundę  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="182" column="21" bodyfile="MainWindow.xaml.cs" bodystart="182" bodyend="189"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" compoundref="_main_window_8xaml_8cs" startline="35">Poznaj_Mape_Swiata.MainWindow.Timer</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a8b4428cd0ee97010229f341f4e768f5d" compoundref="_main_window_8xaml_8cs" startline="213" endline="242">Poznaj_Mape_Swiata.MainWindow.Timer_Tick</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" compoundref="_main_window_8xaml_8cs" startline="194" endline="205">Poznaj_Mape_Swiata.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Poznaj_Mape_Swiata.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.MainWindow</qualifiedname>
+        <briefdescription>
+<para>Konstruktor programu inicjujacy gre  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="194" column="16" bodyfile="MainWindow.xaml.cs" bodystart="194" bodyend="205"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1af6b775ad0d42a5408559dc12a3b19295" compoundref="_main_window_8xaml_8cs" startline="182" endline="189">Poznaj_Mape_Swiata.MainWindow.Czasomierz</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1aec6de91caa569a29a1ea39bb731db100" compoundref="_main_window_8xaml_8cs" startline="84" endline="102">Poznaj_Mape_Swiata.MainWindow.Dopasuj</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a18706bdb709447a526db8c2d0629e895" compoundref="_main_window_8xaml_8cs" startline="47">Poznaj_Mape_Swiata.MainWindow.zycia</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a0255a7313d01a7d3f08513a300680668" compoundref="_main_window_8xaml_8cs" startline="579" endline="584">Poznaj_Mape_Swiata.MainWindow.Button_Again_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a390006964d90cc7673efeeb4c3653ee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Dobrze</definition>
+        <argsstring>()</argsstring>
+        <name>Dobrze</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Dobrze</qualifiedname>
+        <briefdescription>
+<para>Metoda odpowiedzialna za reagowanie na poprawne odpowiedzi gracz  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="247" column="21" bodyfile="MainWindow.xaml.cs" bodystart="247" bodyend="258"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" compoundref="_main_window_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.MainWindow.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a554d37b2ed40add66230200e95344581" compoundref="_main_window_8xaml_8cs" startline="31">Poznaj_Mape_Swiata.MainWindow.time</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" compoundref="_main_window_8xaml_8cs" startline="35">Poznaj_Mape_Swiata.MainWindow.Timer</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Zle</definition>
+        <argsstring>()</argsstring>
+        <name>Zle</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Zle</qualifiedname>
+        <briefdescription>
+<para>Metoda odpowiedzialna za reagowanie na bledne odpowiedzi gracza oraz koniec gry.  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="263" column="21" bodyfile="MainWindow.xaml.cs" bodystart="263" bodyend="290"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" compoundref="_main_window_8xaml_8cs" startline="35">Poznaj_Mape_Swiata.MainWindow.Timer</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a18706bdb709447a526db8c2d0629e895" compoundref="_main_window_8xaml_8cs" startline="47">Poznaj_Mape_Swiata.MainWindow.zycia</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a5c07d4846a7ce14a0f56f904e43c2727" compoundref="_main_window_8xaml_8cs" startline="43">Poznaj_Mape_Swiata.MainWindow.zycie</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1ad792ed52cc93436b432faed9c5c5cd0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.WskazNaMapie</definition>
+        <argsstring>()</argsstring>
+        <name>WskazNaMapie</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.WskazNaMapie</qualifiedname>
+        <briefdescription>
+<para>Metoda odpowiedzialna za drugi etap rundy - wskazywanie na mapie  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="295" column="21" bodyfile="MainWindow.xaml.cs" bodystart="295" bodyend="302"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</definition>
+        <argsstring>()</argsstring>
+        <name>CzyWybranoStolice</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</qualifiedname>
+        <briefdescription>
+<para>Metoda sprawdzająca, która stolica została wybrana do odgadnięcia  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwraca i-nr stolicy w przypadku poprawnego wyboru lub -1 w przypadku braku wyboru</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="108" column="21" bodyfile="MainWindow.xaml.cs" bodystart="108" bodyend="124"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" compoundref="_main_window_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.MainWindow.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a3917b610229037594f4380b8175f0df4" compoundref="_main_window_8xaml_8cs" startline="59">Poznaj_Mape_Swiata.MainWindow.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a6292ea8a66a035dcb805d47c0fd3c088" compoundref="_main_window_8xaml_8cs" startline="55">Poznaj_Mape_Swiata.MainWindow.SecondStage</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" compoundref="_main_window_8xaml_8cs" startline="35">Poznaj_Mape_Swiata.MainWindow.Timer</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" compoundref="_main_window_8xaml_8cs" startline="309" endline="330">Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a744b4d3fb998a5ee26e7e1606ac690fa" compoundref="_main_window_8xaml_8cs" startline="591" endline="600">Poznaj_Mape_Swiata.MainWindow.LV_stolic_MouseLeave</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a8b4428cd0ee97010229f341f4e768f5d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Timer_Tick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Timer_Tick</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Timer_Tick</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za wyswietlanie oraz odliczanie czasu na gre w rundzie  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wydarzenie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="213" column="14" bodyfile="MainWindow.xaml.cs" bodystart="213" bodyend="242"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ab8f5b13ff8eb9d4afc839ff8ec19f07c" compoundref="_main_window_8xaml_8cs" startline="75">Poznaj_Mape_Swiata.MainWindow.punkty</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a554d37b2ed40add66230200e95344581" compoundref="_main_window_8xaml_8cs" startline="31">Poznaj_Mape_Swiata.MainWindow.time</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" compoundref="_main_window_8xaml_8cs" startline="35">Poznaj_Mape_Swiata.MainWindow.Timer</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1af6b775ad0d42a5408559dc12a3b19295" compoundref="_main_window_8xaml_8cs" startline="182" endline="189">Poznaj_Mape_Swiata.MainWindow.Czasomierz</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Btnsprawdz_Click</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Btnsprawdz_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za sprawdzenie czy wybrana stolica pasuje do wpisanego wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="309" column="22" bodyfile="MainWindow.xaml.cs" bodystart="309" bodyend="330"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" compoundref="_main_window_8xaml_8cs" startline="108" endline="124">Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1aba9b88034551cdddc5ad48207a1b67da" compoundref="_main_window_8xaml_8cs" startline="67">Poznaj_Mape_Swiata.MainWindow.dopasowanie</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a1e98f789c9c04f25add1670fa654c578" compoundref="_main_window_8xaml_8cs" startline="51">Poznaj_Mape_Swiata.MainWindow.hasBeenClicked</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ab8f5b13ff8eb9d4afc839ff8ec19f07c" compoundref="_main_window_8xaml_8cs" startline="75">Poznaj_Mape_Swiata.MainWindow.punkty</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a3917b610229037594f4380b8175f0df4" compoundref="_main_window_8xaml_8cs" startline="59">Poznaj_Mape_Swiata.MainWindow.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" compoundref="_main_window_8xaml_8cs" startline="129" endline="133">Poznaj_Mape_Swiata.MainWindow.UpdateLabels</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ad792ed52cc93436b432faed9c5c5cd0b" compoundref="_main_window_8xaml_8cs" startline="295" endline="302">Poznaj_Mape_Swiata.MainWindow.WskazNaMapie</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" compoundref="_main_window_8xaml_8cs" startline="263" endline="290">Poznaj_Mape_Swiata.MainWindow.Zle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1aa316f9d8b9627853a0489b774888f3a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.txt_woj_GotFocus</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>txt_woj_GotFocus</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.txt_woj_GotFocus</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za usuwanie domyslnego tekstu z pola do wpisywania nazwy województwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia w pole tekstowe</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="337" column="22" bodyfile="MainWindow.xaml.cs" bodystart="337" bodyend="344"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a1e98f789c9c04f25add1670fa654c578" compoundref="_main_window_8xaml_8cs" startline="51">Poznaj_Mape_Swiata.MainWindow.hasBeenClicked</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.sprawdzMape</definition>
+        <argsstring>(String nazwa, Button btn)</argsstring>
+        <name>sprawdzMape</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.sprawdzMape</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nazwa</declname>
+        </param>
+        <param>
+          <type>Button</type>
+          <declname>btn</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za sprawdzenie poprawnosci zaznaczenia wojewodztwa na mapie  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nazwa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa wojewodztwa</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>btn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Przycisk reprezentujacy obszar danego wojewodztwa</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="351" column="22" bodyfile="MainWindow.xaml.cs" bodystart="351" bodyend="396"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" compoundref="_main_window_8xaml_8cs" startline="108" endline="124">Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a390006964d90cc7673efeeb4c3653ee4" compoundref="_main_window_8xaml_8cs" startline="247" endline="258">Poznaj_Mape_Swiata.MainWindow.Dobrze</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ae0f373056d3f3053a887c372e4c05125" compoundref="_main_window_8xaml_8cs" startline="39">Poznaj_Mape_Swiata.MainWindow.ile_jeszcze</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" compoundref="_main_window_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.MainWindow.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" compoundref="_main_window_8xaml_8cs" startline="139" endline="177">Poznaj_Mape_Swiata.MainWindow.PrzygotowaniePoziomu</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1ab8f5b13ff8eb9d4afc839ff8ec19f07c" compoundref="_main_window_8xaml_8cs" startline="75">Poznaj_Mape_Swiata.MainWindow.punkty</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a3917b610229037594f4380b8175f0df4" compoundref="_main_window_8xaml_8cs" startline="59">Poznaj_Mape_Swiata.MainWindow.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a65a35cd37f25fa33e6996d3700b887f0" compoundref="_main_window_8xaml_8cs" startline="79">Poznaj_Mape_Swiata.MainWindow.rnd</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" compoundref="_main_window_8xaml_8cs" startline="129" endline="133">Poznaj_Mape_Swiata.MainWindow.UpdateLabels</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" compoundref="_main_window_8xaml_8cs" startline="263" endline="290">Poznaj_Mape_Swiata.MainWindow.Zle</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a5c07d4846a7ce14a0f56f904e43c2727" compoundref="_main_window_8xaml_8cs" startline="43">Poznaj_Mape_Swiata.MainWindow.zycie</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a011213d6363437b9f434da396c95cdc0" compoundref="_main_window_8xaml_8cs" startline="403" endline="407">Poznaj_Mape_Swiata.MainWindow.Button_Click_1</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a3cbe1d5986f106481db365705b6bc430" compoundref="_main_window_8xaml_8cs" startline="502" endline="506">Poznaj_Mape_Swiata.MainWindow.Button_Click_10</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1ab8fa5ea90d30577d92268cddc760e087" compoundref="_main_window_8xaml_8cs" startline="513" endline="517">Poznaj_Mape_Swiata.MainWindow.Button_Click_11</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a9d7f9632e65a47a19a94dd8ee0f32464" compoundref="_main_window_8xaml_8cs" startline="524" endline="528">Poznaj_Mape_Swiata.MainWindow.Button_Click_12</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a34dc7473a92f9b349500e1deb4ae4694" compoundref="_main_window_8xaml_8cs" startline="535" endline="539">Poznaj_Mape_Swiata.MainWindow.Button_Click_13</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a2b122e3600a8d2f8fcb5bb3b0c39fe80" compoundref="_main_window_8xaml_8cs" startline="546" endline="550">Poznaj_Mape_Swiata.MainWindow.Button_Click_14</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a68836b5bb19e0d036a109a48ff0f5395" compoundref="_main_window_8xaml_8cs" startline="557" endline="561">Poznaj_Mape_Swiata.MainWindow.Button_Click_15</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a9ab8e8dc87e926834acaad739347e21e" compoundref="_main_window_8xaml_8cs" startline="568" endline="572">Poznaj_Mape_Swiata.MainWindow.Button_Click_16</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a62faa1abac75c472aced5519e02f0daf" compoundref="_main_window_8xaml_8cs" startline="414" endline="418">Poznaj_Mape_Swiata.MainWindow.Button_Click_2</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1aa659612ebc390ba5f5a9cd153d5ac65f" compoundref="_main_window_8xaml_8cs" startline="425" endline="429">Poznaj_Mape_Swiata.MainWindow.Button_Click_3</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a0b94eb8cff5cc22a9abab89d978cd03b" compoundref="_main_window_8xaml_8cs" startline="436" endline="440">Poznaj_Mape_Swiata.MainWindow.Button_Click_4</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1ab54a884a187813904dd6d6e3c7d38df0" compoundref="_main_window_8xaml_8cs" startline="447" endline="451">Poznaj_Mape_Swiata.MainWindow.Button_Click_5</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a7a1b981b36f005a0c712f345aa176685" compoundref="_main_window_8xaml_8cs" startline="458" endline="462">Poznaj_Mape_Swiata.MainWindow.Button_Click_6</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1ad868f877878780239e3523fc28c68165" compoundref="_main_window_8xaml_8cs" startline="469" endline="473">Poznaj_Mape_Swiata.MainWindow.Button_Click_7</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a929319928b54d83d9a9f25c5d31ade0f" compoundref="_main_window_8xaml_8cs" startline="480" endline="484">Poznaj_Mape_Swiata.MainWindow.Button_Click_8</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_main_window_1a8b3e6a4457db39e0b145bed6eb03da67" compoundref="_main_window_8xaml_8cs" startline="491" endline="495">Poznaj_Mape_Swiata.MainWindow.Button_Click_9</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a011213d6363437b9f434da396c95cdc0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_1</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_1</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_1</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="403" column="22" bodyfile="MainWindow.xaml.cs" bodystart="403" bodyend="407"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a62faa1abac75c472aced5519e02f0daf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_2</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_2</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_2</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="414" column="22" bodyfile="MainWindow.xaml.cs" bodystart="414" bodyend="418"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1aa659612ebc390ba5f5a9cd153d5ac65f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_3</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_3</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_3</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="425" column="22" bodyfile="MainWindow.xaml.cs" bodystart="425" bodyend="429"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a0b94eb8cff5cc22a9abab89d978cd03b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_4</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_4</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_4</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="436" column="22" bodyfile="MainWindow.xaml.cs" bodystart="436" bodyend="440"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1ab54a884a187813904dd6d6e3c7d38df0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_5</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_5</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_5</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="447" column="22" bodyfile="MainWindow.xaml.cs" bodystart="447" bodyend="451"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a7a1b981b36f005a0c712f345aa176685" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_6</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_6</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_6</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="458" column="22" bodyfile="MainWindow.xaml.cs" bodystart="458" bodyend="462"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1ad868f877878780239e3523fc28c68165" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_7</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_7</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_7</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="469" column="22" bodyfile="MainWindow.xaml.cs" bodystart="469" bodyend="473"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a929319928b54d83d9a9f25c5d31ade0f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_8</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_8</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_8</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="480" column="22" bodyfile="MainWindow.xaml.cs" bodystart="480" bodyend="484"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a8b3e6a4457db39e0b145bed6eb03da67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_9</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_9</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_9</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="491" column="22" bodyfile="MainWindow.xaml.cs" bodystart="491" bodyend="495"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a3cbe1d5986f106481db365705b6bc430" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_10</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_10</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_10</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="502" column="22" bodyfile="MainWindow.xaml.cs" bodystart="502" bodyend="506"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1ab8fa5ea90d30577d92268cddc760e087" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_11</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_11</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_11</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="513" column="22" bodyfile="MainWindow.xaml.cs" bodystart="513" bodyend="517"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a9d7f9632e65a47a19a94dd8ee0f32464" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_12</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_12</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_12</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="524" column="22" bodyfile="MainWindow.xaml.cs" bodystart="524" bodyend="528"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a34dc7473a92f9b349500e1deb4ae4694" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_13</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_13</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_13</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="535" column="22" bodyfile="MainWindow.xaml.cs" bodystart="535" bodyend="539"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a2b122e3600a8d2f8fcb5bb3b0c39fe80" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_14</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_14</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_14</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="546" column="22" bodyfile="MainWindow.xaml.cs" bodystart="546" bodyend="550"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a68836b5bb19e0d036a109a48ff0f5395" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_15</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_15</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_15</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="557" column="22" bodyfile="MainWindow.xaml.cs" bodystart="557" bodyend="561"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a9ab8e8dc87e926834acaad739347e21e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Click_16</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_16</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Click_16</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="568" column="22" bodyfile="MainWindow.xaml.cs" bodystart="568" bodyend="572"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" compoundref="_main_window_8xaml_8cs" startline="351" endline="396">Poznaj_Mape_Swiata.MainWindow.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a0255a7313d01a7d3f08513a300680668" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.Button_Again_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Again_Click</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.Button_Again_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda, ktora po przegranej nastepuje mozliwosc ponownej gry  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="579" column="22" bodyfile="MainWindow.xaml.cs" bodystart="579" bodyend="584"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" compoundref="_main_window_8xaml_8cs" startline="194" endline="205">Poznaj_Mape_Swiata.MainWindow.MainWindow</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_main_window_1a744b4d3fb998a5ee26e7e1606ac690fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.MainWindow.LV_stolic_MouseLeave</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>LV_stolic_MouseLeave</name>
+        <qualifiedname>Poznaj_Mape_Swiata.MainWindow.LV_stolic_MouseLeave</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za odczytanie z wylosowanej listy wybranego przez uzytkownika wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="591" column="22" bodyfile="MainWindow.xaml.cs" bodystart="591" bodyend="600"/>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" compoundref="_main_window_8xaml_8cs" startline="108" endline="124">Poznaj_Mape_Swiata.MainWindow.CzyWybranoStolice</references>
+        <references refid="class_poznaj___mape___swiata_1_1_main_window_1a6292ea8a66a035dcb805d47c0fd3c088" compoundref="_main_window_8xaml_8cs" startline="55">Poznaj_Mape_Swiata.MainWindow.SecondStage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Klasa główna programu  </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Poznaj_Mape_Swiata.MainWindow</label>
+        <link refid="class_poznaj___mape___swiata_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Poznaj_Mape_Swiata.MainWindow</label>
+        <link refid="class_poznaj___mape___swiata_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="MainWindow.xaml.cs" line="26" column="19" bodyfile="MainWindow.xaml.cs" bodystart="27" bodyend="601"/>
+    <listofallmembers>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa337bd787b16f465ac52756cd65804cb" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Btnsprawdz_Click</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a0255a7313d01a7d3f08513a300680668" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Again_Click</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a011213d6363437b9f434da396c95cdc0" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_1</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a3cbe1d5986f106481db365705b6bc430" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_10</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1ab8fa5ea90d30577d92268cddc760e087" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_11</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a9d7f9632e65a47a19a94dd8ee0f32464" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_12</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a34dc7473a92f9b349500e1deb4ae4694" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_13</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a2b122e3600a8d2f8fcb5bb3b0c39fe80" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_14</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a68836b5bb19e0d036a109a48ff0f5395" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_15</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a9ab8e8dc87e926834acaad739347e21e" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_16</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a62faa1abac75c472aced5519e02f0daf" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_2</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa659612ebc390ba5f5a9cd153d5ac65f" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_3</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a0b94eb8cff5cc22a9abab89d978cd03b" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_4</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1ab54a884a187813904dd6d6e3c7d38df0" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_5</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a7a1b981b36f005a0c712f345aa176685" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_6</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1ad868f877878780239e3523fc28c68165" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_7</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a929319928b54d83d9a9f25c5d31ade0f" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_8</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a8b3e6a4457db39e0b145bed6eb03da67" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Button_Click_9</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1af6b775ad0d42a5408559dc12a3b19295" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Czasomierz</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a4ecbe1867ec0b0970dd2613772e07b7f" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>CzyWybranoStolice</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a390006964d90cc7673efeeb4c3653ee4" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Dobrze</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1aba9b88034551cdddc5ad48207a1b67da" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>dopasowanie</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1aec6de91caa569a29a1ea39bb731db100" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Dopasuj</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a1e98f789c9c04f25add1670fa654c578" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>hasBeenClicked</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1ae0f373056d3f3053a887c372e4c05125" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>ile_jeszcze</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a744b4d3fb998a5ee26e7e1606ac690fa" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>LV_stolic_MouseLeave</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa7dfc519c9476b211f6ef124e87e79ed" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1ad1f0dcaa629e7bb997fe0032cfb20645" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>nazwy_stolic</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a5c1707e539a0e145a464c9b02ec22998" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>poziom</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1adf8f5bcb3acb12cb2b0fd5d0dafca6cc" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>PrzygotowaniePoziomu</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1ab8f5b13ff8eb9d4afc839ff8ec19f07c" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>punkty</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a3917b610229037594f4380b8175f0df4" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>radios</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a65a35cd37f25fa33e6996d3700b887f0" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>rnd</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a6292ea8a66a035dcb805d47c0fd3c088" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>SecondStage</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a564d5afa1aa101382cd33bb9dee921e8" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>sprawdzMape</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a554d37b2ed40add66230200e95344581" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>time</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1af89482bf3c1a20464b9c924f7ba19c23" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Timer</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a8b4428cd0ee97010229f341f4e768f5d" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Timer_Tick</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1aa316f9d8b9627853a0489b774888f3a4" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>txt_woj_GotFocus</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a64c1b41f42c96bed1ad72c4205760397" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>UpdateLabels</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1ad792ed52cc93436b432faed9c5c5cd0b" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>WskazNaMapie</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a9a4b1f4bf8eace9b895064e4c5b3e524" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>Zle</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a18706bdb709447a526db8c2d0629e895" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>zycia</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_main_window_1a5c07d4846a7ce14a0f56f904e43c2727" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::MainWindow</scope><name>zycie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

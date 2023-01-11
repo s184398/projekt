@@ -1,0 +1,2338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_poznaj___mape___swiata_1_1_poziom2" kind="class" language="C#" prot="public">
+    <compoundname>Poznaj_Mape_Swiata::Poziom2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1acfe5b998fab0572cd0c42876947eb4de" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.Poziom2.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.time</qualifiedname>
+        <initializer>= 25</initializer>
+        <briefdescription>
+<para>czas gry w sekundach  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="27" column="21" bodyfile="Poziom2.xaml.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a1102b845a76fc0c4624ca616c315c8c5" compoundref="_poziom2_8xaml_8cs" startline="263" endline="275">Poznaj_Mape_Swiata.Poziom2.Dobrze</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a8661c59f7b452b1b6634230812aab5cd" compoundref="_poziom2_8xaml_8cs" startline="199" endline="228">Poznaj_Mape_Swiata.Poziom2.Timer_Tick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" prot="private" static="no" mutable="no">
+        <type>DispatcherTimer</type>
+        <definition>DispatcherTimer Poznaj_Mape_Swiata.Poziom2.Timer</definition>
+        <argsstring></argsstring>
+        <name>Timer</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Timer</qualifiedname>
+        <briefdescription>
+<para>Zmienna systemowa odpowiedzialna za kontrole uplywu czasu  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="31" column="33" bodyfile="Poziom2.xaml.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" compoundref="_poziom2_8xaml_8cs" startline="124" endline="137">Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a1102b845a76fc0c4624ca616c315c8c5" compoundref="_poziom2_8xaml_8cs" startline="263" endline="275">Poznaj_Mape_Swiata.Poziom2.Dobrze</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" compoundref="_poziom2_8xaml_8cs" startline="233" endline="258">Poznaj_Mape_Swiata.Poziom2.Poziom2</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a8661c59f7b452b1b6634230812aab5cd" compoundref="_poziom2_8xaml_8cs" startline="199" endline="228">Poznaj_Mape_Swiata.Poziom2.Timer_Tick</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" compoundref="_poziom2_8xaml_8cs" startline="280" endline="306">Poznaj_Mape_Swiata.Poziom2.Zle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1a38160dab87742def7660343aa914ef3a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.Poziom2.ile_jeszcze</definition>
+        <argsstring></argsstring>
+        <name>ile_jeszcze</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.ile_jeszcze</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+<para>Zmienna odpowiedzialna za odliczanie stolic, ktore pozostaly do odgadniecia  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="35" column="21" bodyfile="Poziom2.xaml.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1aa6efa360aa33e011fc32bc698776ccdd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.Poziom2.zycie</definition>
+        <argsstring></argsstring>
+        <name>zycie</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.zycie</qualifiedname>
+        <briefdescription>
+<para>zmienna liczaca zycia gracza  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="39" column="21" bodyfile="Poziom2.xaml.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" compoundref="_poziom2_8xaml_8cs" startline="233" endline="258">Poznaj_Mape_Swiata.Poziom2.Poziom2</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" compoundref="_poziom2_8xaml_8cs" startline="280" endline="306">Poznaj_Mape_Swiata.Poziom2.Zle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1a95805d13bac6cd0b98fd42e7cddf9bcd" prot="private" static="no" mutable="no">
+        <type>Image[]</type>
+        <definition>Image [] Poznaj_Mape_Swiata.Poziom2.zycia</definition>
+        <argsstring></argsstring>
+        <name>zycia</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.zycia</qualifiedname>
+        <initializer>= new Image[3]</initializer>
+        <briefdescription>
+<para>Obiekt przechowujacy obrazki zycia na ekranie gracza  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="43" column="23" bodyfile="Poziom2.xaml.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" compoundref="_poziom2_8xaml_8cs" startline="233" endline="258">Poznaj_Mape_Swiata.Poziom2.Poziom2</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" compoundref="_poziom2_8xaml_8cs" startline="280" endline="306">Poznaj_Mape_Swiata.Poziom2.Zle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1a8748372ed23bd8e48c521bee1758b736" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Poznaj_Mape_Swiata.Poziom2.hasBeenClicked</definition>
+        <argsstring></argsstring>
+        <name>hasBeenClicked</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.hasBeenClicked</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Zmienna kontrolujaca czyszczenie pola do wpisywania nazw krajow  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="47" column="22" bodyfile="Poziom2.xaml.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1afe5d3cdc71ff3a3d7aed5a3cfbaf662b" compoundref="_poziom2_8xaml_8cs" startline="353" endline="360">Poznaj_Mape_Swiata.Poziom2.txt_kraj_GotFocus</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1a37031cb9f2b667dd8ec166220971e253" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Poznaj_Mape_Swiata.Poziom2.SecondStage</definition>
+        <argsstring></argsstring>
+        <name>SecondStage</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.SecondStage</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Gra dysponuje dwoma etapami - odgadnij kraj ze stolicy oraz pokaz na mapie (tu rozpoczecie drugiego etapu rozgrywki po poprawnym wpisaniu nazwy kraju)  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="51" column="22" bodyfile="Poziom2.xaml.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" compoundref="_poziom2_8xaml_8cs" startline="124" endline="137">Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a1b95f71dcefeb92a32b855a9e768811f" compoundref="_poziom2_8xaml_8cs" startline="778" endline="787">Poznaj_Mape_Swiata.Poziom2.LV_stolic_MouseLeave</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1a0006ed04ed5000442cb749ebf835a28f" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; String, String &gt;</type>
+        <definition>Dictionary&lt;String, String&gt; Poznaj_Mape_Swiata.Poziom2.dopasowanie</definition>
+        <argsstring></argsstring>
+        <name>dopasowanie</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.dopasowanie</qualifiedname>
+        <initializer>= new Dictionary&lt;String, String&gt;()</initializer>
+        <briefdescription>
+<para>Obiekt przechowujacy pary zmiennych stolica-kraj  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="63" column="28" bodyfile="Poziom2.xaml.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ad10bcba97778ada09a3f14914cacad8e" compoundref="_poziom2_8xaml_8cs" startline="80" endline="118">Poznaj_Mape_Swiata.Poziom2.Dopasuj</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1a17d118c35c058b5b33b0788866eed90a" prot="private" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random Poznaj_Mape_Swiata.Poziom2.rnd</definition>
+        <argsstring></argsstring>
+        <name>rnd</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.rnd</qualifiedname>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+<para>Obiekt odpowiedzialny za losowanie  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="75" column="24" bodyfile="Poziom2.xaml.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1adbb6d55c5de77901d7c52e6f17b0420f" prot="public" static="no" mutable="no">
+        <type>RadioButton[]</type>
+        <definition>RadioButton [] Poznaj_Mape_Swiata.Poziom2.radios</definition>
+        <argsstring></argsstring>
+        <name>radios</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.radios</qualifiedname>
+        <initializer>= new RadioButton[8]</initializer>
+        <briefdescription>
+<para>Tablica przechowujaca kontrolki typu radio z nazwami stolic  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="55" column="36" bodyfile="Poziom2.xaml.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" compoundref="_poziom2_8xaml_8cs" startline="124" endline="137">Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1afadae79ee1393e198d582d121639360b" prot="public" static="no" mutable="no">
+        <type>String[]</type>
+        <definition>String [] Poznaj_Mape_Swiata.Poziom2.nazwy_stolic</definition>
+        <argsstring></argsstring>
+        <name>nazwy_stolic</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.nazwy_stolic</qualifiedname>
+        <initializer>= { &quot;Oslo&quot;, &quot;Sztokholm&quot;, &quot;Helsinki&quot;, &quot;Dublin&quot;, &quot;Londyn&quot;, &quot;Lisbona&quot;, &quot;Madryd&quot;, &quot;Paryż&quot;, &quot;Bruksela&quot;, &quot;Amsterdam&quot;, &quot;Berlin&quot;, &quot;Warszawa&quot;, &quot;Wilno&quot;, &quot;Ryga&quot;, &quot;Talin&quot;, &quot;Mińsk&quot;, &quot;Kijów&quot;, &quot;Kiszyniów&quot;, &quot;Bukareszt&quot;, &quot;Praga&quot;, &quot;Bratysława&quot;, &quot;Wiedeń&quot;, &quot;Berno&quot;, &quot;Rzym&quot;, &quot;Lublana&quot;, &quot;Budapeszt&quot;, &quot;Zagrzeb&quot;, &quot;Sarajewo&quot;, &quot;Belgrad&quot;, &quot;Sofia&quot;, &quot;Podgorica&quot;, &quot;Tirana&quot;, &quot;Prisztina&quot;, &quot;Skopje&quot;, &quot;Ateny&quot;, &quot;Kopenhaga&quot;}</initializer>
+        <briefdescription>
+<para>Tablica z nazwami stolic  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="59" column="23" bodyfile="Poziom2.xaml.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ad10bcba97778ada09a3f14914cacad8e" compoundref="_poziom2_8xaml_8cs" startline="80" endline="118">Poznaj_Mape_Swiata.Poziom2.Dopasuj</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.Poziom2.poziom</definition>
+        <argsstring></argsstring>
+        <name>poziom</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.poziom</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+<para>Zmienna przechowujaca dany poziom  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="67" column="20" bodyfile="Poziom2.xaml.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" compoundref="_poziom2_8xaml_8cs" startline="124" endline="137">Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a1102b845a76fc0c4624ca616c315c8c5" compoundref="_poziom2_8xaml_8cs" startline="263" endline="275">Poznaj_Mape_Swiata.Poziom2.Dobrze</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" compoundref="_poziom2_8xaml_8cs" startline="142" endline="146">Poznaj_Mape_Swiata.Poziom2.UpdateLabels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.Poziom2.punkty</definition>
+        <argsstring></argsstring>
+        <name>punkty</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.punkty</qualifiedname>
+        <briefdescription>
+<para>Zmienna przechowujaca liczbe punktow gracza  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="71" column="20" bodyfile="Poziom2.xaml.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" compoundref="_poziom2_8xaml_8cs" startline="233" endline="258">Poznaj_Mape_Swiata.Poziom2.Poziom2</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a8661c59f7b452b1b6634230812aab5cd" compoundref="_poziom2_8xaml_8cs" startline="199" endline="228">Poznaj_Mape_Swiata.Poziom2.Timer_Tick</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" compoundref="_poziom2_8xaml_8cs" startline="142" endline="146">Poznaj_Mape_Swiata.Poziom2.UpdateLabels</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ad10bcba97778ada09a3f14914cacad8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Dopasuj</definition>
+        <argsstring>()</argsstring>
+        <name>Dopasuj</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Dopasuj</qualifiedname>
+        <briefdescription>
+<para>Metoda przechowująca pary: województwo-stolica  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="80" column="21" bodyfile="Poziom2.xaml.cs" bodystart="80" bodyend="118"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a0006ed04ed5000442cb749ebf835a28f" compoundref="_poziom2_8xaml_8cs" startline="63">Poznaj_Mape_Swiata.Poziom2.dopasowanie</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1afadae79ee1393e198d582d121639360b" compoundref="_poziom2_8xaml_8cs" startline="59">Poznaj_Mape_Swiata.Poziom2.nazwy_stolic</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" compoundref="_poziom2_8xaml_8cs" startline="233" endline="258">Poznaj_Mape_Swiata.Poziom2.Poziom2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.UpdateLabels</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLabels</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.UpdateLabels</qualifiedname>
+        <briefdescription>
+<para>Metoda aktualizująca kontrolki przechowujących punkty i poziom  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="142" column="21" bodyfile="Poziom2.xaml.cs" bodystart="142" bodyend="146"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" compoundref="_poziom2_8xaml_8cs" startline="67">Poznaj_Mape_Swiata.Poziom2.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" compoundref="_poziom2_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.Poziom2.punkty</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</definition>
+        <argsstring>()</argsstring>
+        <name>PrzygotowaniePoziomu</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</qualifiedname>
+        <briefdescription>
+<para>Metoda przygotowująca poziom do gry. Nastepuje w niej losowanie nazw stolic w czasie gry  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="152" column="21" bodyfile="Poziom2.xaml.cs" bodystart="152" bodyend="192"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a38160dab87742def7660343aa914ef3a" compoundref="_poziom2_8xaml_8cs" startline="35">Poznaj_Mape_Swiata.Poziom2.ile_jeszcze</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1afadae79ee1393e198d582d121639360b" compoundref="_poziom2_8xaml_8cs" startline="59">Poznaj_Mape_Swiata.Poziom2.nazwy_stolic</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" compoundref="_poziom2_8xaml_8cs" startline="67">Poznaj_Mape_Swiata.Poziom2.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1adbb6d55c5de77901d7c52e6f17b0420f" compoundref="_poziom2_8xaml_8cs" startline="55">Poznaj_Mape_Swiata.Poziom2.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a17d118c35c058b5b33b0788866eed90a" compoundref="_poziom2_8xaml_8cs" startline="75">Poznaj_Mape_Swiata.Poziom2.rnd</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" compoundref="_poziom2_8xaml_8cs" startline="142" endline="146">Poznaj_Mape_Swiata.Poziom2.UpdateLabels</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" compoundref="_poziom2_8xaml_8cs" startline="233" endline="258">Poznaj_Mape_Swiata.Poziom2.Poziom2</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Poznaj_Mape_Swiata.Poziom2.Poziom2</definition>
+        <argsstring>(int zycie, int punkty)</argsstring>
+        <name>Poziom2</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Poziom2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>zycie</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>punkty</declname>
+        </param>
+        <briefdescription>
+<para>Konstruktor programu inicjujacy gre  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="233" column="16" bodyfile="Poziom2.xaml.cs" bodystart="233" bodyend="258"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1ad10bcba97778ada09a3f14914cacad8e" compoundref="_poziom2_8xaml_8cs" startline="80" endline="118">Poznaj_Mape_Swiata.Poziom2.Dopasuj</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" compoundref="_poziom2_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.Poziom2.punkty</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" compoundref="_poziom2_8xaml_8cs" startline="31">Poznaj_Mape_Swiata.Poziom2.Timer</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a8661c59f7b452b1b6634230812aab5cd" compoundref="_poziom2_8xaml_8cs" startline="199" endline="228">Poznaj_Mape_Swiata.Poziom2.Timer_Tick</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95805d13bac6cd0b98fd42e7cddf9bcd" compoundref="_poziom2_8xaml_8cs" startline="43">Poznaj_Mape_Swiata.Poziom2.zycia</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aa6efa360aa33e011fc32bc698776ccdd" compoundref="_poziom2_8xaml_8cs" startline="39">Poznaj_Mape_Swiata.Poziom2.zycie</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a1102b845a76fc0c4624ca616c315c8c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Dobrze</definition>
+        <argsstring>()</argsstring>
+        <name>Dobrze</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Dobrze</qualifiedname>
+        <briefdescription>
+<para>Metoda odpowiedzialna za reagowanie na poprawne odpowiedzi gracz  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="263" column="21" bodyfile="Poziom2.xaml.cs" bodystart="263" bodyend="275"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" compoundref="_poziom2_8xaml_8cs" startline="67">Poznaj_Mape_Swiata.Poziom2.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1acfe5b998fab0572cd0c42876947eb4de" compoundref="_poziom2_8xaml_8cs" startline="27">Poznaj_Mape_Swiata.Poziom2.time</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" compoundref="_poziom2_8xaml_8cs" startline="31">Poznaj_Mape_Swiata.Poziom2.Timer</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Zle</definition>
+        <argsstring>()</argsstring>
+        <name>Zle</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Zle</qualifiedname>
+        <briefdescription>
+<para>Metoda odpowiedzialna za reagowanie na bledne odpowiedzi gracza oraz koniec gry.  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="280" column="21" bodyfile="Poziom2.xaml.cs" bodystart="280" bodyend="306"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" compoundref="_poziom2_8xaml_8cs" startline="31">Poznaj_Mape_Swiata.Poziom2.Timer</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95805d13bac6cd0b98fd42e7cddf9bcd" compoundref="_poziom2_8xaml_8cs" startline="43">Poznaj_Mape_Swiata.Poziom2.zycia</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aa6efa360aa33e011fc32bc698776ccdd" compoundref="_poziom2_8xaml_8cs" startline="39">Poznaj_Mape_Swiata.Poziom2.zycie</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a7204fa6f94cf988e5fa9597fca79be43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.WskazNaMapie</definition>
+        <argsstring>()</argsstring>
+        <name>WskazNaMapie</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.WskazNaMapie</qualifiedname>
+        <briefdescription>
+<para>Metoda odpowiedzialna za drugi etap rundy - wskazywanie na mapie  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="311" column="21" bodyfile="Poziom2.xaml.cs" bodystart="311" bodyend="318"/>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</definition>
+        <argsstring>()</argsstring>
+        <name>CzyWybranoStolice</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</qualifiedname>
+        <briefdescription>
+<para>Metoda sprawdzająca, która stolica została wybrana do odgadnięcia  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwraca i-nr stolicy w przypadku poprawnego wyboru lub -1 w przypadku braku wyboru</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="124" column="21" bodyfile="Poziom2.xaml.cs" bodystart="124" bodyend="137"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" compoundref="_poziom2_8xaml_8cs" startline="67">Poznaj_Mape_Swiata.Poziom2.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1adbb6d55c5de77901d7c52e6f17b0420f" compoundref="_poziom2_8xaml_8cs" startline="55">Poznaj_Mape_Swiata.Poziom2.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a37031cb9f2b667dd8ec166220971e253" compoundref="_poziom2_8xaml_8cs" startline="51">Poznaj_Mape_Swiata.Poziom2.SecondStage</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" compoundref="_poziom2_8xaml_8cs" startline="31">Poznaj_Mape_Swiata.Poziom2.Timer</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" compoundref="_poziom2_8xaml_8cs" startline="325" endline="346">Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a1b95f71dcefeb92a32b855a9e768811f" compoundref="_poziom2_8xaml_8cs" startline="778" endline="787">Poznaj_Mape_Swiata.Poziom2.LV_stolic_MouseLeave</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a8661c59f7b452b1b6634230812aab5cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Timer_Tick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Timer_Tick</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Timer_Tick</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za wyswietlanie oraz odliczanie czasu na gre w rundzie  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Wydarzenie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="199" column="14" bodyfile="Poziom2.xaml.cs" bodystart="199" bodyend="228"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" compoundref="_poziom2_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.Poziom2.punkty</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1acfe5b998fab0572cd0c42876947eb4de" compoundref="_poziom2_8xaml_8cs" startline="27">Poznaj_Mape_Swiata.Poziom2.time</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" compoundref="_poziom2_8xaml_8cs" startline="31">Poznaj_Mape_Swiata.Poziom2.Timer</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" compoundref="_poziom2_8xaml_8cs" startline="233" endline="258">Poznaj_Mape_Swiata.Poziom2.Poziom2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Btnsprawdz_Click</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Btnsprawdz_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za sprawdzenie czy wybrana stolica pasuje do wpisanego wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Objekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="325" column="22" bodyfile="Poziom2.xaml.cs" bodystart="325" bodyend="346"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" compoundref="_poziom2_8xaml_8cs" startline="124" endline="137">Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a0006ed04ed5000442cb749ebf835a28f" compoundref="_poziom2_8xaml_8cs" startline="63">Poznaj_Mape_Swiata.Poziom2.dopasowanie</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a8748372ed23bd8e48c521bee1758b736" compoundref="_poziom2_8xaml_8cs" startline="47">Poznaj_Mape_Swiata.Poziom2.hasBeenClicked</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" compoundref="_poziom2_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.Poziom2.punkty</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1adbb6d55c5de77901d7c52e6f17b0420f" compoundref="_poziom2_8xaml_8cs" startline="55">Poznaj_Mape_Swiata.Poziom2.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" compoundref="_poziom2_8xaml_8cs" startline="142" endline="146">Poznaj_Mape_Swiata.Poziom2.UpdateLabels</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a7204fa6f94cf988e5fa9597fca79be43" compoundref="_poziom2_8xaml_8cs" startline="311" endline="318">Poznaj_Mape_Swiata.Poziom2.WskazNaMapie</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" compoundref="_poziom2_8xaml_8cs" startline="280" endline="306">Poznaj_Mape_Swiata.Poziom2.Zle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1afe5d3cdc71ff3a3d7aed5a3cfbaf662b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.txt_kraj_GotFocus</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>txt_kraj_GotFocus</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.txt_kraj_GotFocus</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za usuwanie domyslnego tekstu z pola do wpisywania nazwy województwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia w pole tekstowe</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="353" column="22" bodyfile="Poziom2.xaml.cs" bodystart="353" bodyend="360"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a8748372ed23bd8e48c521bee1758b736" compoundref="_poziom2_8xaml_8cs" startline="47">Poznaj_Mape_Swiata.Poziom2.hasBeenClicked</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.sprawdzMape</definition>
+        <argsstring>(String nazwa, Button btn)</argsstring>
+        <name>sprawdzMape</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.sprawdzMape</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nazwa</declname>
+        </param>
+        <param>
+          <type>Button</type>
+          <declname>btn</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za sprawdzenie poprawnosci zaznaczenia wojewodztwa na mapie  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nazwa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nazwa wojewodztwa</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>btn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Przycisk reprezentujacy obszar danego wojewodztwa</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="367" column="22" bodyfile="Poziom2.xaml.cs" bodystart="367" bodyend="410"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" compoundref="_poziom2_8xaml_8cs" startline="124" endline="137">Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a1102b845a76fc0c4624ca616c315c8c5" compoundref="_poziom2_8xaml_8cs" startline="263" endline="275">Poznaj_Mape_Swiata.Poziom2.Dobrze</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a38160dab87742def7660343aa914ef3a" compoundref="_poziom2_8xaml_8cs" startline="35">Poznaj_Mape_Swiata.Poziom2.ile_jeszcze</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" compoundref="_poziom2_8xaml_8cs" startline="67">Poznaj_Mape_Swiata.Poziom2.poziom</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" compoundref="_poziom2_8xaml_8cs" startline="152" endline="192">Poznaj_Mape_Swiata.Poziom2.PrzygotowaniePoziomu</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" compoundref="_poziom2_8xaml_8cs" startline="71">Poznaj_Mape_Swiata.Poziom2.punkty</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1adbb6d55c5de77901d7c52e6f17b0420f" compoundref="_poziom2_8xaml_8cs" startline="55">Poznaj_Mape_Swiata.Poziom2.radios</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a17d118c35c058b5b33b0788866eed90a" compoundref="_poziom2_8xaml_8cs" startline="75">Poznaj_Mape_Swiata.Poziom2.rnd</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" compoundref="_poziom2_8xaml_8cs" startline="142" endline="146">Poznaj_Mape_Swiata.Poziom2.UpdateLabels</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" compoundref="_poziom2_8xaml_8cs" startline="280" endline="306">Poznaj_Mape_Swiata.Poziom2.Zle</references>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a2ff0b8937191e4ae13c43de5d7eb0f82" compoundref="_poziom2_8xaml_8cs" startline="417" endline="421">Poznaj_Mape_Swiata.Poziom2.Button_Click_1</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1af4251dd7107e3324695aa843e41744f3" compoundref="_poziom2_8xaml_8cs" startline="507" endline="511">Poznaj_Mape_Swiata.Poziom2.Button_Click_10</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a412cf518da718aed8cb0f415e18ab1f7" compoundref="_poziom2_8xaml_8cs" startline="517" endline="521">Poznaj_Mape_Swiata.Poziom2.Button_Click_11</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a0aa465cb2d1078fb7b9766b1f4943df7" compoundref="_poziom2_8xaml_8cs" startline="527" endline="531">Poznaj_Mape_Swiata.Poziom2.Button_Click_12</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1adf79447663fdd9867325b515f9adc74b" compoundref="_poziom2_8xaml_8cs" startline="537" endline="541">Poznaj_Mape_Swiata.Poziom2.Button_Click_13</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ad1cd9879a3adcf2842b8ba7c1a77623b" compoundref="_poziom2_8xaml_8cs" startline="547" endline="551">Poznaj_Mape_Swiata.Poziom2.Button_Click_14</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a23b9ff925bc33050238b5fa63f755a00" compoundref="_poziom2_8xaml_8cs" startline="557" endline="561">Poznaj_Mape_Swiata.Poziom2.Button_Click_15</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a67d2fc70f872f2b40bc157fc62dac272" compoundref="_poziom2_8xaml_8cs" startline="567" endline="571">Poznaj_Mape_Swiata.Poziom2.Button_Click_16</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a774467660ff440bd0265424182571f5e" compoundref="_poziom2_8xaml_8cs" startline="577" endline="581">Poznaj_Mape_Swiata.Poziom2.Button_Click_17</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ac6ba1b1935ca279d0f3d630ec6fd89b0" compoundref="_poziom2_8xaml_8cs" startline="587" endline="591">Poznaj_Mape_Swiata.Poziom2.Button_Click_18</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a6eccc018b1241ca30f76414bbd8a850e" compoundref="_poziom2_8xaml_8cs" startline="597" endline="601">Poznaj_Mape_Swiata.Poziom2.Button_Click_19</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ae5aa2fbcdeef7a162ee17f86ccb1d7d5" compoundref="_poziom2_8xaml_8cs" startline="427" endline="431">Poznaj_Mape_Swiata.Poziom2.Button_Click_2</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ade5be227da67092af42c501eb3200088" compoundref="_poziom2_8xaml_8cs" startline="607" endline="611">Poznaj_Mape_Swiata.Poziom2.Button_Click_20</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a9863803201bef3778908c65007299351" compoundref="_poziom2_8xaml_8cs" startline="617" endline="621">Poznaj_Mape_Swiata.Poziom2.Button_Click_21</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a31d925b68bdecf9df492829854c6f000" compoundref="_poziom2_8xaml_8cs" startline="627" endline="631">Poznaj_Mape_Swiata.Poziom2.Button_Click_22</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a5edd682c1993b3dfa57eece231194ee2" compoundref="_poziom2_8xaml_8cs" startline="637" endline="641">Poznaj_Mape_Swiata.Poziom2.Button_Click_23</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a6a8f533c43d73d2127077c646d9b76a8" compoundref="_poziom2_8xaml_8cs" startline="647" endline="651">Poznaj_Mape_Swiata.Poziom2.Button_Click_24</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a6a549cb7310551ed43d090a9488fce49" compoundref="_poziom2_8xaml_8cs" startline="657" endline="661">Poznaj_Mape_Swiata.Poziom2.Button_Click_25</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1af4930bb4ba1ce629057b669c38b3ab61" compoundref="_poziom2_8xaml_8cs" startline="667" endline="671">Poznaj_Mape_Swiata.Poziom2.Button_Click_26</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ae9f40b81567441dd7f79c5943e6bc8b6" compoundref="_poziom2_8xaml_8cs" startline="677" endline="681">Poznaj_Mape_Swiata.Poziom2.Button_Click_27</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aba6fff30ae057475588d32e7327d29a1" compoundref="_poziom2_8xaml_8cs" startline="687" endline="691">Poznaj_Mape_Swiata.Poziom2.Button_Click_28</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a9c24228c9e40950f74f21ff6aa418cab" compoundref="_poziom2_8xaml_8cs" startline="697" endline="701">Poznaj_Mape_Swiata.Poziom2.Button_Click_29</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a67573e1eefca6e41c91295ee038f27f9" compoundref="_poziom2_8xaml_8cs" startline="437" endline="441">Poznaj_Mape_Swiata.Poziom2.Button_Click_3</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4cd4ca3b3ab6e0b90a2c61b16bcb3eff" compoundref="_poziom2_8xaml_8cs" startline="707" endline="711">Poznaj_Mape_Swiata.Poziom2.Button_Click_30</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a528c4c15aa255c45805e0d06a3b0cb0e" compoundref="_poziom2_8xaml_8cs" startline="717" endline="721">Poznaj_Mape_Swiata.Poziom2.Button_Click_31</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aed5eb1296c5923eb6daefbcefe10fb85" compoundref="_poziom2_8xaml_8cs" startline="727" endline="731">Poznaj_Mape_Swiata.Poziom2.Button_Click_32</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4fe9537091af2e386556f5ac8f371a0d" compoundref="_poziom2_8xaml_8cs" startline="737" endline="741">Poznaj_Mape_Swiata.Poziom2.Button_Click_33</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1af90d3ee2560700fde784962b11c55832" compoundref="_poziom2_8xaml_8cs" startline="747" endline="751">Poznaj_Mape_Swiata.Poziom2.Button_Click_34</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1ae352982670045b83ad83b7fa2fc5241d" compoundref="_poziom2_8xaml_8cs" startline="757" endline="761">Poznaj_Mape_Swiata.Poziom2.Button_Click_35</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa0d1ae6fcfb357eb9b054c0eb84e3107" compoundref="_poziom2_8xaml_8cs" startline="767" endline="771">Poznaj_Mape_Swiata.Poziom2.Button_Click_36</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4b62b57f690a10a7b123342725432993" compoundref="_poziom2_8xaml_8cs" startline="447" endline="451">Poznaj_Mape_Swiata.Poziom2.Button_Click_4</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a8af941686f44d4b62045385d92a4a42e" compoundref="_poziom2_8xaml_8cs" startline="457" endline="461">Poznaj_Mape_Swiata.Poziom2.Button_Click_5</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1aa803ae560f65a090353494222c2beea1" compoundref="_poziom2_8xaml_8cs" startline="467" endline="471">Poznaj_Mape_Swiata.Poziom2.Button_Click_6</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a182656059ff1c799d5f128f14542a190" compoundref="_poziom2_8xaml_8cs" startline="477" endline="481">Poznaj_Mape_Swiata.Poziom2.Button_Click_7</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a4ad62baad36a597eb40516e2f04e0d14" compoundref="_poziom2_8xaml_8cs" startline="487" endline="491">Poznaj_Mape_Swiata.Poziom2.Button_Click_8</referencedby>
+        <referencedby refid="class_poznaj___mape___swiata_1_1_poziom2_1a53230bfa919adb56c6844f3bdd252351" compoundref="_poziom2_8xaml_8cs" startline="497" endline="501">Poznaj_Mape_Swiata.Poziom2.Button_Click_9</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a2ff0b8937191e4ae13c43de5d7eb0f82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_1</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_1</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_1</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="417" column="22" bodyfile="Poziom2.xaml.cs" bodystart="417" bodyend="421"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ae5aa2fbcdeef7a162ee17f86ccb1d7d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_2</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_2</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_2</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="427" column="22" bodyfile="Poziom2.xaml.cs" bodystart="427" bodyend="431"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a67573e1eefca6e41c91295ee038f27f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_3</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_3</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_3</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="437" column="22" bodyfile="Poziom2.xaml.cs" bodystart="437" bodyend="441"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a4b62b57f690a10a7b123342725432993" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_4</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_4</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_4</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="447" column="22" bodyfile="Poziom2.xaml.cs" bodystart="447" bodyend="451"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a8af941686f44d4b62045385d92a4a42e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_5</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_5</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_5</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="457" column="22" bodyfile="Poziom2.xaml.cs" bodystart="457" bodyend="461"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1aa803ae560f65a090353494222c2beea1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_6</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_6</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_6</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="467" column="22" bodyfile="Poziom2.xaml.cs" bodystart="467" bodyend="471"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a182656059ff1c799d5f128f14542a190" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_7</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_7</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_7</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="477" column="22" bodyfile="Poziom2.xaml.cs" bodystart="477" bodyend="481"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a4ad62baad36a597eb40516e2f04e0d14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_8</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_8</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_8</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="487" column="22" bodyfile="Poziom2.xaml.cs" bodystart="487" bodyend="491"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a53230bfa919adb56c6844f3bdd252351" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_9</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_9</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_9</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="497" column="22" bodyfile="Poziom2.xaml.cs" bodystart="497" bodyend="501"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1af4251dd7107e3324695aa843e41744f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_10</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_10</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_10</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="507" column="22" bodyfile="Poziom2.xaml.cs" bodystart="507" bodyend="511"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a412cf518da718aed8cb0f415e18ab1f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_11</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_11</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_11</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="517" column="22" bodyfile="Poziom2.xaml.cs" bodystart="517" bodyend="521"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a0aa465cb2d1078fb7b9766b1f4943df7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_12</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_12</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_12</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="527" column="22" bodyfile="Poziom2.xaml.cs" bodystart="527" bodyend="531"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1adf79447663fdd9867325b515f9adc74b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_13</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_13</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_13</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="537" column="22" bodyfile="Poziom2.xaml.cs" bodystart="537" bodyend="541"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ad1cd9879a3adcf2842b8ba7c1a77623b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_14</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_14</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_14</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="547" column="22" bodyfile="Poziom2.xaml.cs" bodystart="547" bodyend="551"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a23b9ff925bc33050238b5fa63f755a00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_15</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_15</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_15</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="557" column="22" bodyfile="Poziom2.xaml.cs" bodystart="557" bodyend="561"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a67d2fc70f872f2b40bc157fc62dac272" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_16</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_16</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_16</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="567" column="22" bodyfile="Poziom2.xaml.cs" bodystart="567" bodyend="571"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a774467660ff440bd0265424182571f5e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_17</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_17</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_17</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="577" column="22" bodyfile="Poziom2.xaml.cs" bodystart="577" bodyend="581"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ac6ba1b1935ca279d0f3d630ec6fd89b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_18</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_18</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_18</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="587" column="22" bodyfile="Poziom2.xaml.cs" bodystart="587" bodyend="591"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a6eccc018b1241ca30f76414bbd8a850e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_19</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_19</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_19</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="597" column="22" bodyfile="Poziom2.xaml.cs" bodystart="597" bodyend="601"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ade5be227da67092af42c501eb3200088" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_20</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_20</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_20</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="607" column="22" bodyfile="Poziom2.xaml.cs" bodystart="607" bodyend="611"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a9863803201bef3778908c65007299351" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_21</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_21</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_21</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="617" column="22" bodyfile="Poziom2.xaml.cs" bodystart="617" bodyend="621"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a31d925b68bdecf9df492829854c6f000" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_22</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_22</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_22</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="627" column="22" bodyfile="Poziom2.xaml.cs" bodystart="627" bodyend="631"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a5edd682c1993b3dfa57eece231194ee2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_23</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_23</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_23</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="637" column="22" bodyfile="Poziom2.xaml.cs" bodystart="637" bodyend="641"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a6a8f533c43d73d2127077c646d9b76a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_24</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_24</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_24</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="647" column="22" bodyfile="Poziom2.xaml.cs" bodystart="647" bodyend="651"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a6a549cb7310551ed43d090a9488fce49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_25</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_25</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_25</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="657" column="22" bodyfile="Poziom2.xaml.cs" bodystart="657" bodyend="661"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1af4930bb4ba1ce629057b669c38b3ab61" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_26</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_26</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_26</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="667" column="22" bodyfile="Poziom2.xaml.cs" bodystart="667" bodyend="671"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ae9f40b81567441dd7f79c5943e6bc8b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_27</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_27</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_27</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="677" column="22" bodyfile="Poziom2.xaml.cs" bodystart="677" bodyend="681"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1aba6fff30ae057475588d32e7327d29a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_28</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_28</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_28</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="687" column="22" bodyfile="Poziom2.xaml.cs" bodystart="687" bodyend="691"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a9c24228c9e40950f74f21ff6aa418cab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_29</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_29</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_29</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="697" column="22" bodyfile="Poziom2.xaml.cs" bodystart="697" bodyend="701"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a4cd4ca3b3ab6e0b90a2c61b16bcb3eff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_30</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_30</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_30</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="707" column="22" bodyfile="Poziom2.xaml.cs" bodystart="707" bodyend="711"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a528c4c15aa255c45805e0d06a3b0cb0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_31</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_31</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_31</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="717" column="22" bodyfile="Poziom2.xaml.cs" bodystart="717" bodyend="721"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1aed5eb1296c5923eb6daefbcefe10fb85" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_32</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_32</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_32</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="727" column="22" bodyfile="Poziom2.xaml.cs" bodystart="727" bodyend="731"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a4fe9537091af2e386556f5ac8f371a0d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_33</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_33</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_33</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="737" column="22" bodyfile="Poziom2.xaml.cs" bodystart="737" bodyend="741"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1af90d3ee2560700fde784962b11c55832" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_34</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_34</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_34</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="747" column="22" bodyfile="Poziom2.xaml.cs" bodystart="747" bodyend="751"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ae352982670045b83ad83b7fa2fc5241d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_35</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_35</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_35</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="757" column="22" bodyfile="Poziom2.xaml.cs" bodystart="757" bodyend="761"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1aa0d1ae6fcfb357eb9b054c0eb84e3107" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Button_Click_36</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click_36</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Button_Click_36</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Klikniecie w dany obszar wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="767" column="22" bodyfile="Poziom2.xaml.cs" bodystart="767" bodyend="771"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" compoundref="_poziom2_8xaml_8cs" startline="367" endline="410">Poznaj_Mape_Swiata.Poziom2.sprawdzMape</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1a1b95f71dcefeb92a32b855a9e768811f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.LV_stolic_MouseLeave</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>LV_stolic_MouseLeave</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.LV_stolic_MouseLeave</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda odpowiedzialna za odczytanie z wylosowanej listy wybranego przez uzytkownika wojewodztwa  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="778" column="22" bodyfile="Poziom2.xaml.cs" bodystart="778" bodyend="787"/>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" compoundref="_poziom2_8xaml_8cs" startline="124" endline="137">Poznaj_Mape_Swiata.Poziom2.CzyWybranoStolice</references>
+        <references refid="class_poznaj___mape___swiata_1_1_poziom2_1a37031cb9f2b667dd8ec166220971e253" compoundref="_poziom2_8xaml_8cs" startline="51">Poznaj_Mape_Swiata.Poziom2.SecondStage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poznaj___mape___swiata_1_1_poziom2_1ab00249eec76d68713f3a883575d4c08f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Poznaj_Mape_Swiata.Poziom2.Jeszcze_raz_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Jeszcze_raz_Click</name>
+        <qualifiedname>Poznaj_Mape_Swiata.Poziom2.Jeszcze_raz_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Metoda, ktora po przegranej nastepuje mozliwosc ponownej gry  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Obiekt</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Zdarzenie klikniecia</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Poziom2.xaml.cs" line="793" column="22" bodyfile="Poziom2.xaml.cs" bodystart="793" bodyend="798"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Podklasa obslugujaca mape europy  </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Poznaj_Mape_Swiata.Poziom2</label>
+        <link refid="class_poznaj___mape___swiata_1_1_poziom2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Poznaj_Mape_Swiata.Poziom2</label>
+        <link refid="class_poznaj___mape___swiata_1_1_poziom2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="Poziom2.xaml.cs" line="22" column="19" bodyfile="Poziom2.xaml.cs" bodystart="23" bodyend="799"/>
+    <listofallmembers>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4579caba1b019f26c31dbc1f2ea39d0b" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Btnsprawdz_Click</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a2ff0b8937191e4ae13c43de5d7eb0f82" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_1</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1af4251dd7107e3324695aa843e41744f3" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_10</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a412cf518da718aed8cb0f415e18ab1f7" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_11</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a0aa465cb2d1078fb7b9766b1f4943df7" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_12</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1adf79447663fdd9867325b515f9adc74b" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_13</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ad1cd9879a3adcf2842b8ba7c1a77623b" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_14</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a23b9ff925bc33050238b5fa63f755a00" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_15</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a67d2fc70f872f2b40bc157fc62dac272" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_16</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a774467660ff440bd0265424182571f5e" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_17</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ac6ba1b1935ca279d0f3d630ec6fd89b0" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_18</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a6eccc018b1241ca30f76414bbd8a850e" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_19</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ae5aa2fbcdeef7a162ee17f86ccb1d7d5" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_2</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ade5be227da67092af42c501eb3200088" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_20</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a9863803201bef3778908c65007299351" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_21</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a31d925b68bdecf9df492829854c6f000" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_22</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a5edd682c1993b3dfa57eece231194ee2" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_23</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a6a8f533c43d73d2127077c646d9b76a8" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_24</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a6a549cb7310551ed43d090a9488fce49" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_25</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1af4930bb4ba1ce629057b669c38b3ab61" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_26</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ae9f40b81567441dd7f79c5943e6bc8b6" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_27</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aba6fff30ae057475588d32e7327d29a1" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_28</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a9c24228c9e40950f74f21ff6aa418cab" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_29</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a67573e1eefca6e41c91295ee038f27f9" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_3</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4cd4ca3b3ab6e0b90a2c61b16bcb3eff" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_30</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a528c4c15aa255c45805e0d06a3b0cb0e" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_31</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aed5eb1296c5923eb6daefbcefe10fb85" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_32</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4fe9537091af2e386556f5ac8f371a0d" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_33</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1af90d3ee2560700fde784962b11c55832" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_34</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ae352982670045b83ad83b7fa2fc5241d" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_35</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa0d1ae6fcfb357eb9b054c0eb84e3107" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_36</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4b62b57f690a10a7b123342725432993" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_4</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a8af941686f44d4b62045385d92a4a42e" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_5</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa803ae560f65a090353494222c2beea1" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_6</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a182656059ff1c799d5f128f14542a190" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_7</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a4ad62baad36a597eb40516e2f04e0d14" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_8</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a53230bfa919adb56c6844f3bdd252351" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Button_Click_9</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a132207d141a562c2d5574cb313cffa17" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>CzyWybranoStolice</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a1102b845a76fc0c4624ca616c315c8c5" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Dobrze</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a0006ed04ed5000442cb749ebf835a28f" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>dopasowanie</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ad10bcba97778ada09a3f14914cacad8e" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Dopasuj</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a8748372ed23bd8e48c521bee1758b736" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>hasBeenClicked</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a38160dab87742def7660343aa914ef3a" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>ile_jeszcze</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ab00249eec76d68713f3a883575d4c08f" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Jeszcze_raz_Click</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a1b95f71dcefeb92a32b855a9e768811f" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>LV_stolic_MouseLeave</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1afadae79ee1393e198d582d121639360b" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>nazwy_stolic</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aac43faf349cac460c993d21b5079011a" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>poziom</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa8d96d5e879e78557014443b44ffb138" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Poziom2</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aaadf9b4a15c7254d3b37be39e7a547b7" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>PrzygotowaniePoziomu</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1ab0c24bf9de9773c0e7a042d400abc344" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>punkty</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1adbb6d55c5de77901d7c52e6f17b0420f" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>radios</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a17d118c35c058b5b33b0788866eed90a" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>rnd</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a37031cb9f2b667dd8ec166220971e253" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>SecondStage</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a95ac24e4ed46d21a5a74109fabf07ffc" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>sprawdzMape</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1acfe5b998fab0572cd0c42876947eb4de" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>time</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a7279757584886eb243822a269193d9d8" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Timer</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a8661c59f7b452b1b6634230812aab5cd" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Timer_Tick</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1afe5d3cdc71ff3a3d7aed5a3cfbaf662b" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>txt_kraj_GotFocus</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a9cdd66a512e11caff33c52d164750d0c" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>UpdateLabels</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a7204fa6f94cf988e5fa9597fca79be43" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>WskazNaMapie</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a55b4314f763b7ed4b192943916f2c159" prot="public" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>Zle</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1a95805d13bac6cd0b98fd42e7cddf9bcd" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>zycia</name></member>
+      <member refid="class_poznaj___mape___swiata_1_1_poziom2_1aa6efa360aa33e011fc32bc698776ccdd" prot="private" virt="non-virtual"><scope>Poznaj_Mape_Swiata::Poziom2</scope><name>zycie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

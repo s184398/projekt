@@ -1,0 +1,62 @@
+\hypertarget{class_poznaj___mape___swiata_1_1_poziom2}{}\doxysection{Poznaj\+\_\+\+Mape\+\_\+\+Swiata.\+Poziom2 Class Reference}
+\label{class_poznaj___mape___swiata_1_1_poziom2}\index{Poznaj\_Mape\_Swiata.Poziom2@{Poznaj\_Mape\_Swiata.Poziom2}}
+
+
+Interaction logic for Poziom2.\+xaml   
+
+
+
+
+Inheritance diagram for Poznaj\+\_\+\+Mape\+\_\+\+Swiata.\+Poziom2\+:
+% FIG 0
+
+
+Collaboration diagram for Poznaj\+\_\+\+Mape\+\_\+\+Swiata.\+Poziom2\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_ad10bcba97778ada09a3f14914cacad8e}\label{class_poznaj___mape___swiata_1_1_poziom2_ad10bcba97778ada09a3f14914cacad8e}} 
+void {\bfseries Dopasuj} ()
+\begin{DoxyCompactList}\small\item\em Metoda przechowująca pary\+: województwo-\/stolica  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_a9cdd66a512e11caff33c52d164750d0c}\label{class_poznaj___mape___swiata_1_1_poziom2_a9cdd66a512e11caff33c52d164750d0c}} 
+void {\bfseries Update\+Labels} ()
+\begin{DoxyCompactList}\small\item\em Metoda aktualizująca kontrolki przechowujących punkty i poziom  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_aaadf9b4a15c7254d3b37be39e7a547b7}\label{class_poznaj___mape___swiata_1_1_poziom2_aaadf9b4a15c7254d3b37be39e7a547b7}} 
+void {\bfseries Przygotowanie\+Poziomu} ()
+\begin{DoxyCompactList}\small\item\em Metoda przygotowująca poziom do gry. Nastepuje w niej losowanie nazw stolic w czasie gry  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_aa8d96d5e879e78557014443b44ffb138}\label{class_poznaj___mape___swiata_1_1_poziom2_aa8d96d5e879e78557014443b44ffb138}} 
+{\bfseries Poziom2} (int zycie, int \mbox{\hyperlink{class_poznaj___mape___swiata_1_1_poziom2_ab0c24bf9de9773c0e7a042d400abc344}{punkty}})
+\begin{DoxyCompactList}\small\item\em Konstruktor programu inicjujacy gre  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_a1102b845a76fc0c4624ca616c315c8c5}\label{class_poznaj___mape___swiata_1_1_poziom2_a1102b845a76fc0c4624ca616c315c8c5}} 
+void {\bfseries Dobrze} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiedzialna za reagowanie na poprawne odpowiedzi gracz  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_a55b4314f763b7ed4b192943916f2c159}\label{class_poznaj___mape___swiata_1_1_poziom2_a55b4314f763b7ed4b192943916f2c159}} 
+void {\bfseries Zle} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiedzialna za reagowanie na bledne odpowiedzi gracza oraz koniec gry.  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_a7204fa6f94cf988e5fa9597fca79be43}\label{class_poznaj___mape___swiata_1_1_poziom2_a7204fa6f94cf988e5fa9597fca79be43}} 
+void {\bfseries Wskaz\+Na\+Mapie} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiedzialna za drugi etap rundy -\/ wskazywanie na mapie  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_adbb6d55c5de77901d7c52e6f17b0420f}\label{class_poznaj___mape___swiata_1_1_poziom2_adbb6d55c5de77901d7c52e6f17b0420f}} 
+Radio\+Button\mbox{[}$\,$\mbox{]} {\bfseries radios} = new Radio\+Button\mbox{[}8\mbox{]}
+\begin{DoxyCompactList}\small\item\em Tablica przechowujaca kontrolki typu radio z nazwami stolic  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_afadae79ee1393e198d582d121639360b}\label{class_poznaj___mape___swiata_1_1_poziom2_afadae79ee1393e198d582d121639360b}} 
+String\mbox{[}$\,$\mbox{]} {\bfseries nazwy\+\_\+stolic} = \{ \char`\"{}Oslo\char`\"{}, \char`\"{}Sztokholm\char`\"{}, \char`\"{}Helsinki\char`\"{}, \char`\"{}Dublin\char`\"{}, \char`\"{}Londyn\char`\"{}, \char`\"{}Lisbona\char`\"{}, \char`\"{}Madryd\char`\"{}, \char`\"{}Paryż\char`\"{}, \char`\"{}Bruksela\char`\"{}, \char`\"{}Amsterdam\char`\"{}, \char`\"{}Berlin\char`\"{}, \char`\"{}Warszawa\char`\"{}, \char`\"{}Wilno\char`\"{}, \char`\"{}Ryga\char`\"{}, \char`\"{}Talin\char`\"{}, \char`\"{}Mińsk\char`\"{}, \char`\"{}Kijów\char`\"{}, \char`\"{}Kiszyniów\char`\"{}, \char`\"{}Bukareszt\char`\"{}, \char`\"{}Praga\char`\"{}, \char`\"{}Bratysława\char`\"{}, \char`\"{}Wiedeń\char`\"{}, \char`\"{}Berno\char`\"{}, \char`\"{}Rzym\char`\"{}, \char`\"{}Lublana\char`\"{}, \char`\"{}Budapeszt\char`\"{}, \char`\"{}Zagrzeb\char`\"{}, \char`\"{}Sarajewo\char`\"{}, \char`\"{}Belgrad\char`\"{}, \char`\"{}Sofia\char`\"{}, \char`\"{}Podgorica\char`\"{}, \char`\"{}Tirana\char`\"{}, \char`\"{}Prisztina\char`\"{}, \char`\"{}Skopje\char`\"{}, \char`\"{}Ateny\char`\"{}, \char`\"{}Kopenhaga\char`\"{}\}
+\begin{DoxyCompactList}\small\item\em Tablica z nazwami stolic  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_aac43faf349cac460c993d21b5079011a}\label{class_poznaj___mape___swiata_1_1_poziom2_aac43faf349cac460c993d21b5079011a}} 
+int {\bfseries poziom} = 4
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca dany poziom  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_poznaj___mape___swiata_1_1_poziom2_ab0c24bf9de9773c0e7a042d400abc344}\label{class_poznaj___mape___swiata_1_1_poziom2_ab0c24bf9de9773c0e7a042d400abc344}} 
+int {\bfseries punkty}
+\begin{DoxyCompactList}\small\item\em Zmienna przechowujaca liczbe punktow gracza  \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interaction logic for Poziom2.\+xaml  
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Poziom2.\+xaml.\+cs\end{DoxyCompactItemize}

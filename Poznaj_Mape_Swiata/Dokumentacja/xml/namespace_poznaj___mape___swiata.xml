@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_poznaj___mape___swiata" kind="namespace" language="C#">
+    <compoundname>Poznaj_Mape_Swiata</compoundname>
+    <innerclass refid="class_poznaj___mape___swiata_1_1_app" prot="public">Poznaj_Mape_Swiata::App</innerclass>
+    <innerclass refid="class_poznaj___mape___swiata_1_1_main_window" prot="public">Poznaj_Mape_Swiata::MainWindow</innerclass>
+    <innerclass refid="class_poznaj___mape___swiata_1_1_poziom2" prot="public">Poznaj_Mape_Swiata::Poziom2</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="App.xaml.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>
